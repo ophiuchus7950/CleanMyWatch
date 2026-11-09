@@ -1,0 +1,14 @@
+{
+  "profile": "samsung_galaxy_watch8",
+  "datasets": [
+    "knowledge_galaxy_watch",
+    "knowledge_google_wear_os",
+    "knowledge_third_party_watch"
+  ],
+  "operation_map": {},
+  "excluded": [],
+  "device_scope": ["galaxy_watch8"],
+  "software_scope": ["wear_os_6"],
+  "device_match": ["SM-L330"],
+  "description": "Samsung Galaxy Watch 8 (SM-L330). Guard profile: no verified package evidence exists for this model, so the profile has no operations. Add scoped evidence before you add an operation."
+}

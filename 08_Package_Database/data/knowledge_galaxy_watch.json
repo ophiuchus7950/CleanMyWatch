@@ -1,0 +1,1077 @@
+{
+  "schema": "watchdb-1",
+  "dataset": "knowledge_galaxy_watch",
+  "description": "Classified Samsung Galaxy Watch packages. Evidence comes from the Galaxy Watch 6 and 7 debloat thread and the Galaxy Watch 4 dump. Cloud and contacts cluster side effects are recorded.",
+  "default_device_scope": [
+    "galaxy_watch4",
+    "galaxy_watch5",
+    "galaxy_watch6",
+    "galaxy_watch7"
+  ],
+  "default_software_scope": [
+    "wear_os_3",
+    "wear_os_4",
+    "wear_os_5"
+  ],
+  "packages": {
+    "com.samsung.android.wear.calculator": {
+      "package": "com.samsung.android.wear.calculator",
+      "app_name": "Calculator",
+      "manufacturer": "Samsung",
+      "category": "Clock and utility",
+      "description": "Calculator utility seen on Galaxy Watch 6 and 7.",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "SAFE_TO_REMOVE",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch6",
+        "galaxy_watch7"
+      ],
+      "software_scope": [
+        "wear_os_4",
+        "wear_os_5"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/galaxy-watch-6-7-adb-debloat-connecting.4613093/",
+        "source_type": "community",
+        "device_model": "Galaxy Watch 6 / Galaxy Watch 7",
+        "firmware": "One UI Watch (Wear OS 4/5)",
+        "testing_status": "PARTIALLY_VERIFIED",
+        "verified_date": null,
+        "side_effects": "Seen in the debloat context of the source thread. Removal reported without device failure."
+      }
+    },
+    "com.samsung.android.wear.shealth": {
+      "package": "com.samsung.android.wear.shealth",
+      "app_name": "Samsung Health",
+      "manufacturer": "Samsung",
+      "category": "Health",
+      "description": "Samsung Health application on the watch.\nHolds exercise and health records on the watch.",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "ADVANCED_USERS_ONLY",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch6",
+        "galaxy_watch7"
+      ],
+      "software_scope": [
+        "wear_os_4",
+        "wear_os_5"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/galaxy-watch-6-7-adb-debloat-connecting.4613093/",
+        "source_type": "community",
+        "device_model": "Galaxy Watch 6 / Galaxy Watch 7",
+        "firmware": "One UI Watch (Wear OS 4/5)",
+        "testing_status": "PARTIALLY_VERIFIED",
+        "verified_date": null,
+        "side_effects": "The source list removes this package with pm uninstall --user 0. Plain uninstall deletes stored health data. Use pm uninstall -k --user 0 instead when data shall stay."
+      }
+    },
+    "com.samsung.android.shealthmonitor": {
+      "package": "com.samsung.android.shealthmonitor",
+      "app_name": "Samsung Health Monitor",
+      "manufacturer": "Samsung",
+      "category": "Health",
+      "description": "Samsung Health Monitor. Blood pressure and ECG features.",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "ADVANCED_USERS_ONLY",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch4",
+        "galaxy_watch5",
+        "galaxy_watch6",
+        "galaxy_watch7"
+      ],
+      "software_scope": [
+        "wear_os_3",
+        "wear_os_4",
+        "wear_os_5"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/galaxy-watch-6-7-adb-debloat-connecting.4613093/",
+        "source_type": "community",
+        "device_model": "Galaxy Watch 6 / Galaxy Watch 7",
+        "firmware": "One UI Watch (Wear OS 4/5)",
+        "testing_status": "PARTIALLY_VERIFIED",
+        "verified_date": null,
+        "side_effects": "Conditional removal. The source states removal applies only when no Samsung phone is used with the watch. Health monitoring functions fail otherwise."
+      }
+    },
+    "com.samsung.android.watch.compass": {
+      "package": "com.samsung.android.watch.compass",
+      "app_name": "Compass",
+      "manufacturer": "Samsung",
+      "category": "Clock and utility",
+      "description": "Compass utility.\nSafe to remove when the compass function is not needed.",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "SAFE_TO_REMOVE",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch6",
+        "galaxy_watch7"
+      ],
+      "software_scope": [
+        "wear_os_4",
+        "wear_os_5"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/galaxy-watch-6-7-adb-debloat-connecting.4613093/",
+        "source_type": "community",
+        "device_model": "Galaxy Watch 6 / Galaxy Watch 7",
+        "firmware": "One UI Watch (Wear OS 4/5)",
+        "testing_status": "PARTIALLY_VERIFIED",
+        "verified_date": null,
+        "side_effects": "Removal reported without device failure. The compass application is no longer available."
+      }
+    },
+    "com.samsung.android.samsungpay.gear": {
+      "package": "com.samsung.android.samsungpay.gear",
+      "app_name": "Samsung Pay",
+      "manufacturer": "Samsung",
+      "category": "Payment",
+      "description": "Samsung Pay service for the watch. Carries the watch wallet function.",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "NOT_RECOMMENDED",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch6",
+        "galaxy_watch7"
+      ],
+      "software_scope": [
+        "wear_os_4",
+        "wear_os_5"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/galaxy-watch-6-7-adb-debloat-connecting.4613093/",
+        "source_type": "community",
+        "device_model": "Galaxy Watch 6 / Galaxy Watch 7",
+        "firmware": "One UI Watch (Wear OS 4/5)",
+        "testing_status": "PARTIALLY_VERIFIED",
+        "verified_date": null,
+        "side_effects": "Payment function. Community removal evidence exists, but the classification rule for payment packages keeps this at NOT_RECOMMENDED. Removal ends the watch wallet."
+      }
+    },
+    "com.samsung.android.app.reminder": {
+      "package": "com.samsung.android.app.reminder",
+      "app_name": "Samsung Reminder",
+      "manufacturer": "Samsung",
+      "category": "Clock and utility",
+      "description": "Samsung Reminder application.\nSafe to remove when reminders are not used or are handled on the phone.",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "SAFE_TO_REMOVE",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch6",
+        "galaxy_watch7"
+      ],
+      "software_scope": [
+        "wear_os_4",
+        "wear_os_5"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/galaxy-watch-6-7-adb-debloat-connecting.4613093/",
+        "source_type": "community",
+        "device_model": "Galaxy Watch 6 / Galaxy Watch 7",
+        "firmware": "One UI Watch (Wear OS 4/5)",
+        "testing_status": "PARTIALLY_VERIFIED",
+        "verified_date": null,
+        "side_effects": "Removal reported without device failure. Watch-side reminders stop."
+      }
+    },
+    "com.samsung.android.bixby.agent": {
+      "package": "com.samsung.android.bixby.agent",
+      "app_name": "Bixby",
+      "manufacturer": "Samsung",
+      "category": "Voice assistant",
+      "description": "Bixby voice assistant service.\nDisabling ends the Bixby application function.",
+      "dependencies": [
+        "com.samsung.android.bixby.wakeup"
+      ],
+      "needed_by": [],
+      "risk": "SAFE_TO_DISABLE",
+      "reversible": true,
+      "restore_command": "pm enable --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch6",
+        "galaxy_watch7"
+      ],
+      "software_scope": [
+        "wear_os_4",
+        "wear_os_5"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/galaxy-watch-6-7-adb-debloat-connecting.4613093/",
+        "source_type": "community",
+        "device_model": "Galaxy Watch 6 / Galaxy Watch 7",
+        "firmware": "One UI Watch (Wear OS 4/5)",
+        "testing_status": "PARTIALLY_VERIFIED",
+        "verified_date": null,
+        "side_effects": "The source disables this package with pm disable-user --user 0. No device failure reported. Bixby stops responding."
+      }
+    },
+    "com.samsung.android.bixby.wakeup": {
+      "package": "com.samsung.android.bixby.wakeup",
+      "app_name": "Bixby wake-up",
+      "manufacturer": "Samsung",
+      "category": "Voice assistant",
+      "description": "Bixby wake word detection service.\nSafe to remove when Bixby wake word use is not needed.",
+      "dependencies": [],
+      "needed_by": [
+        "com.samsung.android.bixby.agent"
+      ],
+      "risk": "SAFE_TO_REMOVE",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch6",
+        "galaxy_watch7"
+      ],
+      "software_scope": [
+        "wear_os_4",
+        "wear_os_5"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/galaxy-watch-6-7-adb-debloat-connecting.4613093/",
+        "source_type": "community",
+        "device_model": "Galaxy Watch 6 / Galaxy Watch 7",
+        "firmware": "One UI Watch (Wear OS 4/5)",
+        "testing_status": "PARTIALLY_VERIFIED",
+        "verified_date": null,
+        "side_effects": "Removal reported without device failure. Wake word detection stops. The candidate dependency link to bixby.agent is declared one-directional in this entry."
+      }
+    },
+    "com.samsung.android.watch.worldclock": {
+      "package": "com.samsung.android.watch.worldclock",
+      "app_name": "World clock",
+      "manufacturer": "Samsung",
+      "category": "Clock and utility",
+      "description": "World clock utility.\nSafe to remove when the world clock function is not needed.",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "SAFE_TO_REMOVE",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch6",
+        "galaxy_watch7"
+      ],
+      "software_scope": [
+        "wear_os_4",
+        "wear_os_5"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/galaxy-watch-6-7-adb-debloat-connecting.4613093/",
+        "source_type": "community",
+        "device_model": "Galaxy Watch 6 / Galaxy Watch 7",
+        "firmware": "One UI Watch (Wear OS 4/5)",
+        "testing_status": "PARTIALLY_VERIFIED",
+        "verified_date": null,
+        "side_effects": "Removal reported without device failure."
+      }
+    },
+    "com.samsung.android.watch.timer": {
+      "package": "com.samsung.android.watch.timer",
+      "app_name": "Timer",
+      "manufacturer": "Samsung",
+      "category": "Clock and utility",
+      "description": "Timer utility.\nSafe to remove when the built-in timer is not needed.",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "SAFE_TO_REMOVE",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch6",
+        "galaxy_watch7"
+      ],
+      "software_scope": [
+        "wear_os_4",
+        "wear_os_5"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/galaxy-watch-6-7-adb-debloat-connecting.4613093/",
+        "source_type": "community",
+        "device_model": "Galaxy Watch 6 / Galaxy Watch 7",
+        "firmware": "One UI Watch (Wear OS 4/5)",
+        "testing_status": "PARTIALLY_VERIFIED",
+        "verified_date": null,
+        "side_effects": "Removal reported without device failure."
+      }
+    },
+    "com.samsung.android.watch.stopwatch": {
+      "package": "com.samsung.android.watch.stopwatch",
+      "app_name": "Stopwatch",
+      "manufacturer": "Samsung",
+      "category": "Clock and utility",
+      "description": "Stopwatch utility.\nSafe to remove when the built-in stopwatch is not needed.",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "SAFE_TO_REMOVE",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch6",
+        "galaxy_watch7"
+      ],
+      "software_scope": [
+        "wear_os_4",
+        "wear_os_5"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/galaxy-watch-6-7-adb-debloat-connecting.4613093/",
+        "source_type": "community",
+        "device_model": "Galaxy Watch 6 / Galaxy Watch 7",
+        "firmware": "One UI Watch (Wear OS 4/5)",
+        "testing_status": "PARTIALLY_VERIFIED",
+        "verified_date": null,
+        "side_effects": "Removal reported without device failure."
+      }
+    },
+    "com.samsung.android.watch.cameracontroller": {
+      "package": "com.samsung.android.watch.cameracontroller",
+      "app_name": "Camera controller",
+      "manufacturer": "Samsung",
+      "category": "Companion function",
+      "description": "Camera control app for the paired phone camera.",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "SAFE_TO_REMOVE",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch6",
+        "galaxy_watch7"
+      ],
+      "software_scope": [
+        "wear_os_4",
+        "wear_os_5"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/galaxy-watch-6-7-adb-debloat-connecting.4613093/",
+        "source_type": "community",
+        "device_model": "Galaxy Watch 6 / Galaxy Watch 7",
+        "firmware": "One UI Watch (Wear OS 4/5)",
+        "testing_status": "PARTIALLY_VERIFIED",
+        "verified_date": null,
+        "side_effects": "Removal reported without device failure. Remote camera control from the watch stops."
+      }
+    },
+    "com.google.android.marvin.talkback": {
+      "package": "com.google.android.marvin.talkback",
+      "app_name": "TalkBack",
+      "manufacturer": "Google",
+      "category": "Accessibility",
+      "description": "Screen reader accessibility service.",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "ADVANCED_USERS_ONLY",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch6",
+        "galaxy_watch7"
+      ],
+      "software_scope": [
+        "wear_os_4",
+        "wear_os_5"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/galaxy-watch-6-7-adb-debloat-connecting.4613093/",
+        "source_type": "community",
+        "device_model": "Galaxy Watch 6 / Galaxy Watch 7",
+        "firmware": "One UI Watch (Wear OS 4/5)",
+        "testing_status": "PARTIALLY_VERIFIED",
+        "verified_date": null,
+        "side_effects": "Removal reported without device failure. Accessibility loss for vision-impaired use. Remove only when no user needs a screen reader."
+      }
+    },
+    "com.samsung.android.wearable.music": {
+      "package": "com.samsung.android.wearable.music",
+      "app_name": null,
+      "manufacturer": "Samsung",
+      "category": "Media",
+      "description": "Music application variant reported on Galaxy Watch 6 and 7.",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "SAFE_TO_REMOVE",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch6",
+        "galaxy_watch7"
+      ],
+      "software_scope": [
+        "wear_os_4",
+        "wear_os_5"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/galaxy-watch-6-7-adb-debloat-connecting.4613093/",
+        "source_type": "community",
+        "device_model": "Galaxy Watch 6 / Galaxy Watch 7",
+        "firmware": "One UI Watch (Wear OS 4/5)",
+        "testing_status": "PARTIALLY_VERIFIED",
+        "verified_date": null,
+        "side_effects": "Removal reported without device failure."
+      }
+    },
+    "com.samsung.android.video.wearable": {
+      "package": "com.samsung.android.video.wearable",
+      "app_name": "Video",
+      "manufacturer": "Samsung",
+      "category": "Media",
+      "description": "Video player application.",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "SAFE_TO_REMOVE",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch6",
+        "galaxy_watch7"
+      ],
+      "software_scope": [
+        "wear_os_4",
+        "wear_os_5"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/galaxy-watch-6-7-adb-debloat-connecting.4613093/",
+        "source_type": "community",
+        "device_model": "Galaxy Watch 6 / Galaxy Watch 7",
+        "firmware": "One UI Watch (Wear OS 4/5)",
+        "testing_status": "PARTIALLY_VERIFIED",
+        "verified_date": null,
+        "side_effects": "Removal reported without device failure."
+      }
+    },
+    "com.samsung.android.gallery.watch": {
+      "package": "com.samsung.android.gallery.watch",
+      "app_name": "Gallery",
+      "manufacturer": "Samsung",
+      "category": "Media",
+      "description": "Gallery application for photos on the watch.",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "SAFE_TO_REMOVE",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch6",
+        "galaxy_watch7"
+      ],
+      "software_scope": [
+        "wear_os_4",
+        "wear_os_5"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/galaxy-watch-6-7-adb-debloat-connecting.4613093/",
+        "source_type": "community",
+        "device_model": "Galaxy Watch 6 / Galaxy Watch 7",
+        "firmware": "One UI Watch (Wear OS 4/5)",
+        "testing_status": "PARTIALLY_VERIFIED",
+        "verified_date": null,
+        "side_effects": "Removal reported without device failure."
+      }
+    },
+    "com.samsung.android.wear.voicerecorder": {
+      "package": "com.samsung.android.wear.voicerecorder",
+      "app_name": "Voice recorder",
+      "manufacturer": "Samsung",
+      "category": "Clock and utility",
+      "description": "Voice recorder application reported on Galaxy Watch 6 and 7.",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "SAFE_TO_REMOVE",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch6",
+        "galaxy_watch7"
+      ],
+      "software_scope": [
+        "wear_os_4",
+        "wear_os_5"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/galaxy-watch-6-7-adb-debloat-connecting.4613093/",
+        "source_type": "community",
+        "device_model": "Galaxy Watch 6 / Galaxy Watch 7",
+        "firmware": "One UI Watch (Wear OS 4/5)",
+        "testing_status": "PARTIALLY_VERIFIED",
+        "verified_date": null,
+        "side_effects": "Removal reported without device failure. Stored voice notes on the watch depend on the uninstall form. Prefer pm uninstall -k --user 0."
+      }
+    },
+    "com.samsung.android.watch.budscontroller": {
+      "package": "com.samsung.android.watch.budscontroller",
+      "app_name": null,
+      "manufacturer": "Samsung",
+      "category": "Companion function",
+      "description": "Galaxy Buds control service reported on Galaxy Watch 6 and 7.",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "SAFE_TO_REMOVE",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch6",
+        "galaxy_watch7"
+      ],
+      "software_scope": [
+        "wear_os_4",
+        "wear_os_5"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/galaxy-watch-6-7-adb-debloat-connecting.4613093/",
+        "source_type": "community",
+        "device_model": "Galaxy Watch 6 / Galaxy Watch 7",
+        "firmware": "One UI Watch (Wear OS 4/5)",
+        "testing_status": "PARTIALLY_VERIFIED",
+        "verified_date": null,
+        "side_effects": "Removal reported without device failure. Buds management from the watch stops."
+      }
+    },
+    "com.samsung.android.watch.alarm": {
+      "package": "com.samsung.android.watch.alarm",
+      "app_name": "Alarm",
+      "manufacturer": "Samsung",
+      "category": "Clock and utility",
+      "description": "Alarm application. Carries user alarm records.",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "ADVANCED_USERS_ONLY",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch6",
+        "galaxy_watch7"
+      ],
+      "software_scope": [
+        "wear_os_4",
+        "wear_os_5"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/galaxy-watch-6-7-adb-debloat-connecting.4613093/",
+        "source_type": "community",
+        "device_model": "Galaxy Watch 6 / Galaxy Watch 7",
+        "firmware": "One UI Watch (Wear OS 4/5)",
+        "testing_status": "PARTIALLY_VERIFIED",
+        "verified_date": null,
+        "side_effects": "The source removes this package with plain pm uninstall --user 0. Removal ends watch alarms and deletes alarm data. Re-added packages start without stored alarms."
+      }
+    },
+    "com.samsung.android.watch.findmyphone": {
+      "package": "com.samsung.android.watch.findmyphone",
+      "app_name": "Find My Phone",
+      "manufacturer": "Samsung",
+      "category": "Find and locate",
+      "description": "Locate the paired phone from the watch.",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "SAFE_TO_REMOVE",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch6",
+        "galaxy_watch7"
+      ],
+      "software_scope": [
+        "wear_os_4",
+        "wear_os_5"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/galaxy-watch-6-7-adb-debloat-connecting.4613093/",
+        "source_type": "community",
+        "device_model": "Galaxy Watch 6 / Galaxy Watch 7",
+        "firmware": "One UI Watch (Wear OS 4/5)",
+        "testing_status": "PARTIALLY_VERIFIED",
+        "verified_date": null,
+        "side_effects": "Removal reported without device failure. The find-phone-locator keeps working from the phone side through its own service."
+      }
+    },
+    "com.samsung.android.mediacontroller": {
+      "package": "com.samsung.android.mediacontroller",
+      "app_name": null,
+      "manufacturer": "Samsung",
+      "category": "Media",
+      "description": "Media playback control services.",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "SAFE_TO_REMOVE",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch6",
+        "galaxy_watch7"
+      ],
+      "software_scope": [
+        "wear_os_4",
+        "wear_os_5"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/galaxy-watch-6-7-adb-debloat-connecting.4613093/",
+        "source_type": "community",
+        "device_model": "Galaxy Watch 6 / Galaxy Watch 7",
+        "firmware": "One UI Watch (Wear OS 4/5)",
+        "testing_status": "PARTIALLY_VERIFIED",
+        "verified_date": null,
+        "side_effects": "Removal reported without device failure. Media control surfaces from the watch stop. Run a read-back check after removal. Replay surfaces depend on active media sessions."
+      }
+    },
+    "com.samsung.android.calendar": {
+      "package": "com.samsung.android.calendar",
+      "app_name": "Calendar",
+      "manufacturer": "Samsung",
+      "category": "Clock and utility",
+      "description": "Calendar data surface for watch notifications.",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "ADVANCED_USERS_ONLY",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch6",
+        "galaxy_watch7"
+      ],
+      "software_scope": [
+        "wear_os_4",
+        "wear_os_5"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/galaxy-watch-6-7-adb-debloat-connecting.4613093/",
+        "source_type": "community",
+        "device_model": "Galaxy Watch 6 / Galaxy Watch 7",
+        "firmware": "One UI Watch (Wear OS 4/5)",
+        "testing_status": "PARTIALLY_VERIFIED",
+        "verified_date": null,
+        "side_effects": "The source removes this package with plain pm uninstall --user 0. Calendar notifications on the watch stop."
+      }
+    },
+    "com.samsung.android.scloud": {
+      "package": "com.samsung.android.scloud",
+      "app_name": null,
+      "manufacturer": "Samsung",
+      "category": "Backup sync",
+      "description": "Samsung Cloud backup and sync components.",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "NOT_RECOMMENDED",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch6",
+        "galaxy_watch7"
+      ],
+      "software_scope": [
+        "wear_os_4",
+        "wear_os_5"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/galaxy-watch-6-7-adb-debloat-connecting.4613093/",
+        "source_type": "community",
+        "device_model": "Galaxy Watch 6 / Galaxy Watch 7",
+        "firmware": "One UI Watch (Wear OS 4/5)",
+        "testing_status": "PARTIALLY_VERIFIED",
+        "verified_date": null,
+        "side_effects": "Battery drain reports with retry loops follow removal of the scloud and contacts cluster in the same thread. Backup function loss. Keep installed unless storage pressure is critical."
+      }
+    },
+    "com.samsung.android.app.contacts": {
+      "package": "com.samsung.android.app.contacts",
+      "app_name": "Contacts",
+      "manufacturer": "Samsung",
+      "category": "Communication",
+      "description": "Contacts application and services on the watch.",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "NOT_RECOMMENDED",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch6",
+        "galaxy_watch7"
+      ],
+      "software_scope": [
+        "wear_os_4",
+        "wear_os_5"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/galaxy-watch-6-7-adb-debloat-connecting.4613093/",
+        "source_type": "community",
+        "device_model": "Galaxy Watch 6 / Galaxy Watch 7",
+        "firmware": "One UI Watch (Wear OS 4/5)",
+        "testing_status": "PARTIALLY_VERIFIED",
+        "verified_date": null,
+        "side_effects": "Battery drain reports with retry loops follow removal of the contacts cluster in the same thread. Contact surfaces for messaging lose their data source."
+      }
+    },
+    "com.sec.android.easyMover": {
+      "package": "com.sec.android.easyMover",
+      "app_name": null,
+      "manufacturer": "Samsung",
+      "category": "Device transfer",
+      "description": "Device migration service used during setup.",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "ADVANCED_USERS_ONLY",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch6",
+        "galaxy_watch7"
+      ],
+      "software_scope": [
+        "wear_os_4",
+        "wear_os_5"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/galaxy-watch-6-7-adb-debloat-connecting.4613093/",
+        "source_type": "community",
+        "device_model": "Galaxy Watch 6 / Galaxy Watch 7",
+        "firmware": "One UI Watch (Wear OS 4/5)",
+        "testing_status": "PARTIALLY_VERIFIED",
+        "verified_date": null,
+        "side_effects": "The source removes this package with plain pm uninstall --user 0. Device migration from an existing watch stops working. Needed again only during a future watch-to-watch setup."
+      }
+    },
+    "com.samsung.android.wear.smartswitchassistant": {
+      "package": "com.samsung.android.wear.smartswitchassistant",
+      "app_name": null,
+      "manufacturer": "Samsung",
+      "category": "Device transfer",
+      "description": "Smart Switch migration assistant for the watch.",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "ADVANCED_USERS_ONLY",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch6",
+        "galaxy_watch7"
+      ],
+      "software_scope": [
+        "wear_os_4",
+        "wear_os_5"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/galaxy-watch-6-7-adb-debloat-connecting.4613093/",
+        "source_type": "community",
+        "device_model": "Galaxy Watch 6 / Galaxy Watch 7",
+        "firmware": "One UI Watch (Wear OS 4/5)",
+        "testing_status": "PARTIALLY_VERIFIED",
+        "verified_date": null,
+        "side_effects": "Removal reported without device failure. Migration from a previous watch needs this service again. Restore before a watch migration."
+      }
+    },
+    "com.samsung.android.oneconnect": {
+      "package": "com.samsung.android.oneconnect",
+      "app_name": "SmartThings",
+      "manufacturer": "Samsung",
+      "category": "Companion function",
+      "description": "SmartThings application for device control from the watch.",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "ADVANCED_USERS_ONLY",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch6",
+        "galaxy_watch7"
+      ],
+      "software_scope": [
+        "wear_os_4",
+        "wear_os_5"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/galaxy-watch-6-7-adb-debloat-connecting.4613093/",
+        "source_type": "community",
+        "device_model": "Galaxy Watch 6 / Galaxy Watch 7",
+        "firmware": "One UI Watch (Wear OS 4/5)",
+        "testing_status": "PARTIALLY_VERIFIED",
+        "verified_date": null,
+        "side_effects": "The source removes this package with plain pm uninstall --user 0. SmartThings control from the watch stops."
+      }
+    },
+    "com.samsung.sree": {
+      "package": "com.samsung.sree",
+      "app_name": null,
+      "manufacturer": "Samsung",
+      "category": "Function not established",
+      "description": "Samsung sree package family member. Function not established from public evidence.",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "ADVANCED_USERS_ONLY",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch6",
+        "galaxy_watch7"
+      ],
+      "software_scope": [
+        "wear_os_4",
+        "wear_os_5"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/galaxy-watch-6-7-adb-debloat-connecting.4613093/",
+        "source_type": "community",
+        "device_model": "Galaxy Watch 6 / Galaxy Watch 7",
+        "firmware": "One UI Watch (Wear OS 4/5)",
+        "testing_status": "PARTIALLY_VERIFIED",
+        "verified_date": null,
+        "side_effects": "Removal reported without device failure. Function not established, so the conservative level applies. Verify the function before you remove it."
+      }
+    },
+    "com.samsung.sree.classic": {
+      "package": "com.samsung.sree.classic",
+      "app_name": null,
+      "manufacturer": "Samsung",
+      "category": "Function not established",
+      "description": "Samsung sree package variant. Function not established from public evidence.",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "ADVANCED_USERS_ONLY",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch6",
+        "galaxy_watch7"
+      ],
+      "software_scope": [
+        "wear_os_4",
+        "wear_os_5"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/galaxy-watch-6-7-adb-debloat-connecting.4613093/",
+        "source_type": "community",
+        "device_model": "Galaxy Watch 6 / Galaxy Watch 7",
+        "firmware": "One UI Watch (Wear OS 4/5)",
+        "testing_status": "PARTIALLY_VERIFIED",
+        "verified_date": null,
+        "side_effects": "Removal reported without device failure. Function not established."
+      }
+    },
+    "com.samsung.sree.countdown": {
+      "package": "com.samsung.sree.countdown",
+      "app_name": null,
+      "manufacturer": "Samsung",
+      "category": "Function not established",
+      "description": "Samsung sree package variant. Function not established from public evidence.",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "ADVANCED_USERS_ONLY",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch6",
+        "galaxy_watch7"
+      ],
+      "software_scope": [
+        "wear_os_4",
+        "wear_os_5"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/galaxy-watch-6-7-adb-debloat-connecting.4613093/",
+        "source_type": "community",
+        "device_model": "Galaxy Watch 6 / Galaxy Watch 7",
+        "firmware": "One UI Watch (Wear OS 4/5)",
+        "testing_status": "PARTIALLY_VERIFIED",
+        "verified_date": null,
+        "side_effects": "Removal reported without device failure. Function not established."
+      }
+    },
+    "com.samsung.sree.spin": {
+      "package": "com.samsung.sree.spin",
+      "app_name": null,
+      "manufacturer": "Samsung",
+      "category": "Function not established",
+      "description": "Samsung sree package variant. Function not established from public evidence.",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "ADVANCED_USERS_ONLY",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch6",
+        "galaxy_watch7"
+      ],
+      "software_scope": [
+        "wear_os_4",
+        "wear_os_5"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/galaxy-watch-6-7-adb-debloat-connecting.4613093/",
+        "source_type": "community",
+        "device_model": "Galaxy Watch 6 / Galaxy Watch 7",
+        "firmware": "One UI Watch (Wear OS 4/5)",
+        "testing_status": "PARTIALLY_VERIFIED",
+        "verified_date": null,
+        "side_effects": "Removal reported without device failure. Function not established."
+      }
+    },
+    "com.samsung.sree.digital": {
+      "package": "com.samsung.sree.digital",
+      "app_name": null,
+      "manufacturer": "Samsung",
+      "category": "Function not established",
+      "description": "Samsung sree package variant. Function not established from public evidence.",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "ADVANCED_USERS_ONLY",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch6",
+        "galaxy_watch7"
+      ],
+      "software_scope": [
+        "wear_os_4",
+        "wear_os_5"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/galaxy-watch-6-7-adb-debloat-connecting.4613093/",
+        "source_type": "community",
+        "device_model": "Galaxy Watch 6 / Galaxy Watch 7",
+        "firmware": "One UI Watch (Wear OS 4/5)",
+        "testing_status": "PARTIALLY_VERIFIED",
+        "verified_date": null,
+        "side_effects": "Removal reported without device failure. Function not established."
+      }
+    },
+    "com.samsung.android.app.routines": {
+      "package": "com.samsung.android.app.routines",
+      "app_name": "Modes and Routines",
+      "manufacturer": "Samsung",
+      "category": "Watch framework",
+      "description": "Modes and Routines service on the watch.",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "DO_NOT_REMOVE",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch6",
+        "galaxy_watch7"
+      ],
+      "software_scope": [
+        "wear_os_4",
+        "wear_os_5"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/galaxy-watch-6-7-adb-debloat-connecting.4613093/",
+        "source_type": "community",
+        "device_model": "Galaxy Watch 6 / Galaxy Watch 7",
+        "firmware": "One UI Watch (Wear OS 4/5)",
+        "testing_status": "PARTIALLY_VERIFIED",
+        "verified_date": null,
+        "side_effects": "A debloat batch that included this package ended with a boot failure. Recovery showed the message No android system found. The package is load-bearing in that firmware."
+      }
+    },
+    "com.samsung.android.smartgesture": {
+      "package": "com.samsung.android.smartgesture",
+      "app_name": null,
+      "manufacturer": "Samsung",
+      "category": "Watch framework",
+      "description": "Gesture service framework component.",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "DO_NOT_REMOVE",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch4",
+        "galaxy_watch6",
+        "galaxy_watch7"
+      ],
+      "software_scope": [
+        "wear_os_3",
+        "wear_os_4",
+        "wear_os_5"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/galaxy-watch-6-7-adb-debloat-connecting.4613093/",
+        "source_type": "community",
+        "device_model": "Galaxy Watch 6 / Galaxy Watch 7",
+        "firmware": "One UI Watch (Wear OS 4/5)",
+        "testing_status": "PARTIALLY_VERIFIED",
+        "verified_date": null,
+        "side_effects": "Part of the boot-failure batch in the same thread. Gesture services are load-bearing on that firmware. The tool keeps this package in the protected core set."
+      }
+    },
+    "com.samsung.android.batterysavingsettings": {
+      "package": "com.samsung.android.batterysavingsettings",
+      "app_name": null,
+      "manufacturer": "Samsung",
+      "category": "Battery services",
+      "description": "Battery saving settings components.",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "NOT_RECOMMENDED",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch4",
+        "galaxy_watch5",
+        "galaxy_watch6",
+        "galaxy_watch7"
+      ],
+      "software_scope": [
+        "wear_os_3",
+        "wear_os_4",
+        "wear_os_5"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/wearos-watch-adb-commands-disable-enable-uninstall-restore-system-app-install-pull-apps.4324063/",
+        "source_type": "code_analysis",
+        "device_model": "Samsung Galaxy Watch 4",
+        "firmware": "Wear OS 3 era firmware",
+        "testing_status": "PARTIALLY_VERIFIED",
+        "verified_date": null,
+        "side_effects": "Function analysis. The package carries power saving settings. Removal untested in the public evidence. Keep installed."
+      }
+    },
+    "com.samsung.android.watch.safety_assistance": {
+      "package": "com.samsung.android.watch.safety_assistance",
+      "app_name": "Safety and emergency",
+      "manufacturer": "Samsung",
+      "category": "Safety",
+      "description": "Safety and emergency assistance.",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "DO_NOT_REMOVE",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch4",
+        "galaxy_watch5",
+        "galaxy_watch6",
+        "galaxy_watch7"
+      ],
+      "software_scope": [
+        "wear_os_3",
+        "wear_os_4",
+        "wear_os_5"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/wearos-watch-adb-commands-disable-enable-uninstall-restore-system-app-install-pull-apps.4324063/",
+        "source_type": "code_analysis",
+        "device_model": "Samsung Galaxy Watch 4",
+        "firmware": null,
+        "testing_status": "PARTIALLY_VERIFIED",
+        "verified_date": null,
+        "side_effects": "Function analysis. Safety and emergency function. Classification rule 3 keeps emergency function packages out of removal recommendations."
+      }
+    }
+  }
+}

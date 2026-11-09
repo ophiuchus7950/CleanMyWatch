@@ -1,0 +1,3886 @@
+{
+  "schema": "watchdb-1",
+  "dataset": "discovery_galaxy_watch4",
+  "description": "Direct package enumeration captured from a Samsung Galaxy Watch 4. Recording only. Classifications live in the knowledge datasets.",
+  "default_evidence": {
+    "source": "https://xdaforums.com/t/wearos-watch-adb-commands-disable-enable-uninstall-restore-system-app-install-pull-apps.4324063/",
+    "source_type": "dump",
+    "device_model": "Samsung Galaxy Watch 4",
+    "firmware": "Wear OS 3 era firmware (source thread)",
+    "testing_status": "VERIFIED",
+    "verified_date": null,
+    "side_effects": "Direct pm list packages dump from a community-published device session. Enumeration evidence only. No removal test included."
+  },
+  "default_risk": "UNKNOWN",
+  "default_reversible": true,
+  "default_restore_command": "pm install-existing --user 0 {package}",
+  "default_device_scope": [
+    "galaxy_watch4"
+  ],
+  "default_software_scope": [
+    "wear_os_3"
+  ],
+  "packages": {
+    "android": {
+      "package": "android",
+      "app_name": null,
+      "manufacturer": "AOSP",
+      "category": "Android core",
+      "description": "Android system root package. Core system component.",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "UNKNOWN",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch4"
+      ],
+      "software_scope": [
+        "wear_os_3"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/wearos-watch-adb-commands-disable-enable-uninstall-restore-system-app-install-pull-apps.4324063/",
+        "source_type": "dump",
+        "device_model": "Samsung Galaxy Watch 4",
+        "firmware": "Wear OS 3 era firmware (source thread)",
+        "testing_status": "VERIFIED",
+        "verified_date": null,
+        "side_effects": "Direct pm list packages dump from a community-published device session. Enumeration evidence only. No removal test included."
+      }
+    },
+    "com.android.bluetooth": {
+      "package": "com.android.bluetooth",
+      "app_name": "Bluetooth",
+      "manufacturer": "AOSP",
+      "category": "Connectivity",
+      "description": "Bluetooth system service. Connectivity path for the companion connection and audio",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "UNKNOWN",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch4"
+      ],
+      "software_scope": [
+        "wear_os_3"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/wearos-watch-adb-commands-disable-enable-uninstall-restore-system-app-install-pull-apps.4324063/",
+        "source_type": "dump",
+        "device_model": "Samsung Galaxy Watch 4",
+        "firmware": "Wear OS 3 era firmware (source thread)",
+        "testing_status": "VERIFIED",
+        "verified_date": null,
+        "side_effects": "Direct pm list packages dump from a community-published device session. Enumeration evidence only. No removal test included."
+      }
+    },
+    "com.android.phone": {
+      "package": "com.android.phone",
+      "app_name": "Phone service",
+      "manufacturer": "AOSP",
+      "category": "Communication",
+      "description": "Android telephony management service",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "UNKNOWN",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch4"
+      ],
+      "software_scope": [
+        "wear_os_3"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/wearos-watch-adb-commands-disable-enable-uninstall-restore-system-app-install-pull-apps.4324063/",
+        "source_type": "dump",
+        "device_model": "Samsung Galaxy Watch 4",
+        "firmware": "Wear OS 3 era firmware (source thread)",
+        "testing_status": "VERIFIED",
+        "verified_date": null,
+        "side_effects": "Direct pm list packages dump from a community-published device session. Enumeration evidence only. No removal test included."
+      }
+    },
+    "com.android.shell": {
+      "package": "com.android.shell",
+      "app_name": "Shell",
+      "manufacturer": "AOSP",
+      "category": "Android core",
+      "description": "ADB shell command provider",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "UNKNOWN",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch4"
+      ],
+      "software_scope": [
+        "wear_os_3"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/wearos-watch-adb-commands-disable-enable-uninstall-restore-system-app-install-pull-apps.4324063/",
+        "source_type": "dump",
+        "device_model": "Samsung Galaxy Watch 4",
+        "firmware": "Wear OS 3 era firmware (source thread)",
+        "testing_status": "VERIFIED",
+        "verified_date": null,
+        "side_effects": "Direct pm list packages dump from a community-published device session. Enumeration evidence only. No removal test included."
+      }
+    },
+    "com.android.vending": {
+      "package": "com.android.vending",
+      "app_name": "Play Store",
+      "manufacturer": "Google",
+      "category": "App store",
+      "description": "Google Play Store for the watch. App installation and update surface.",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "UNKNOWN",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch4"
+      ],
+      "software_scope": [
+        "wear_os_3"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/wearos-watch-adb-commands-disable-enable-uninstall-restore-system-app-install-pull-apps.4324063/",
+        "source_type": "dump",
+        "device_model": "Samsung Galaxy Watch 4",
+        "firmware": "Wear OS 3 era firmware (source thread)",
+        "testing_status": "VERIFIED",
+        "verified_date": null,
+        "side_effects": "Direct pm list packages dump from a community-published device session. Enumeration evidence only. No removal test included."
+      }
+    },
+    "com.android.wearable.resources": {
+      "package": "com.android.wearable.resources",
+      "app_name": null,
+      "manufacturer": "Google",
+      "category": "Watch framework",
+      "description": "Wear OS system resource overlay package",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "UNKNOWN",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch4"
+      ],
+      "software_scope": [
+        "wear_os_3"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/wearos-watch-adb-commands-disable-enable-uninstall-restore-system-app-install-pull-apps.4324063/",
+        "source_type": "dump",
+        "device_model": "Samsung Galaxy Watch 4",
+        "firmware": "Wear OS 3 era firmware (source thread)",
+        "testing_status": "VERIFIED",
+        "verified_date": null,
+        "side_effects": "Direct pm list packages dump from a community-published device session. Enumeration evidence only. No removal test included."
+      }
+    },
+    "com.google.android.gsf": {
+      "package": "com.google.android.gsf",
+      "app_name": null,
+      "manufacturer": "Google",
+      "category": "Google services core",
+      "description": "Google Services Framework components",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "UNKNOWN",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch4"
+      ],
+      "software_scope": [
+        "wear_os_3"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/wearos-watch-adb-commands-disable-enable-uninstall-restore-system-app-install-pull-apps.4324063/",
+        "source_type": "dump",
+        "device_model": "Samsung Galaxy Watch 4",
+        "firmware": "Wear OS 3 era firmware (source thread)",
+        "testing_status": "VERIFIED",
+        "verified_date": null,
+        "side_effects": "Direct pm list packages dump from a community-published device session. Enumeration evidence only. No removal test included."
+      }
+    },
+    "com.google.android.permissioncontroller": {
+      "package": "com.google.android.permissioncontroller",
+      "app_name": null,
+      "manufacturer": "Google",
+      "category": "Google services core",
+      "description": "Runtime permission control components",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "UNKNOWN",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch4"
+      ],
+      "software_scope": [
+        "wear_os_3"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/wearos-watch-adb-commands-disable-enable-uninstall-restore-system-app-install-pull-apps.4324063/",
+        "source_type": "dump",
+        "device_model": "Samsung Galaxy Watch 4",
+        "firmware": "Wear OS 3 era firmware (source thread)",
+        "testing_status": "VERIFIED",
+        "verified_date": null,
+        "side_effects": "Direct pm list packages dump from a community-published device session. Enumeration evidence only. No removal test included."
+      }
+    },
+    "com.google.android.ext.services": {
+      "package": "com.google.android.ext.services",
+      "app_name": null,
+      "manufacturer": "Google",
+      "category": "Google services core",
+      "description": "Android extension services component",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "UNKNOWN",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch4"
+      ],
+      "software_scope": [
+        "wear_os_3"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/wearos-watch-adb-commands-disable-enable-uninstall-restore-system-app-install-pull-apps.4324063/",
+        "source_type": "dump",
+        "device_model": "Samsung Galaxy Watch 4",
+        "firmware": "Wear OS 3 era firmware (source thread)",
+        "testing_status": "VERIFIED",
+        "verified_date": null,
+        "side_effects": "Direct pm list packages dump from a community-published device session. Enumeration evidence only. No removal test included."
+      }
+    },
+    "com.google.android.ext.shared": {
+      "package": "com.google.android.ext.shared",
+      "app_name": null,
+      "manufacturer": "Google",
+      "category": "Google services core",
+      "description": "Android shared extension component",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "UNKNOWN",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch4"
+      ],
+      "software_scope": [
+        "wear_os_3"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/wearos-watch-adb-commands-disable-enable-uninstall-restore-system-app-install-pull-apps.4324063/",
+        "source_type": "dump",
+        "device_model": "Samsung Galaxy Watch 4",
+        "firmware": "Wear OS 3 era firmware (source thread)",
+        "testing_status": "VERIFIED",
+        "verified_date": null,
+        "side_effects": "Direct pm list packages dump from a community-published device session. Enumeration evidence only. No removal test included."
+      }
+    },
+    "com.google.android.packageinstaller": {
+      "package": "com.google.android.packageinstaller",
+      "app_name": null,
+      "manufacturer": "Google",
+      "category": "App install",
+      "description": "Package installation framework user interface",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "UNKNOWN",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch4"
+      ],
+      "software_scope": [
+        "wear_os_3"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/wearos-watch-adb-commands-disable-enable-uninstall-restore-system-app-install-pull-apps.4324063/",
+        "source_type": "dump",
+        "device_model": "Samsung Galaxy Watch 4",
+        "firmware": "Wear OS 3 era firmware (source thread)",
+        "testing_status": "VERIFIED",
+        "verified_date": null,
+        "side_effects": "Direct pm list packages dump from a community-published device session. Enumeration evidence only. No removal test included."
+      }
+    },
+    "com.google.android.partnersetup": {
+      "package": "com.google.android.partnersetup",
+      "app_name": null,
+      "manufacturer": "Google",
+      "category": "Setup",
+      "description": "Google partner setup services",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "UNKNOWN",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch4"
+      ],
+      "software_scope": [
+        "wear_os_3"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/wearos-watch-adb-commands-disable-enable-uninstall-restore-system-app-install-pull-apps.4324063/",
+        "source_type": "dump",
+        "device_model": "Samsung Galaxy Watch 4",
+        "firmware": "Wear OS 3 era firmware (source thread)",
+        "testing_status": "VERIFIED",
+        "verified_date": null,
+        "side_effects": "Direct pm list packages dump from a community-published device session. Enumeration evidence only. No removal test included."
+      }
+    },
+    "com.google.android.tts": {
+      "package": "com.google.android.tts",
+      "app_name": "Speech services",
+      "manufacturer": "Google",
+      "category": "Speech synthesis",
+      "description": "Text-to-speech engine used by offline replies and accessibility",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "UNKNOWN",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch4"
+      ],
+      "software_scope": [
+        "wear_os_3"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/wearos-watch-adb-commands-disable-enable-uninstall-restore-system-app-install-pull-apps.4324063/",
+        "source_type": "dump",
+        "device_model": "Samsung Galaxy Watch 4",
+        "firmware": "Wear OS 3 era firmware (source thread)",
+        "testing_status": "VERIFIED",
+        "verified_date": null,
+        "side_effects": "Direct pm list packages dump from a community-published device session. Enumeration evidence only. No removal test included."
+      }
+    },
+    "com.google.android.marvin.talkback": {
+      "package": "com.google.android.marvin.talkback",
+      "app_name": "TalkBack",
+      "manufacturer": "Google",
+      "category": "Accessibility",
+      "description": "Screen reader access system for vision-impaired users",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "UNKNOWN",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch4"
+      ],
+      "software_scope": [
+        "wear_os_3"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/wearos-watch-adb-commands-disable-enable-uninstall-restore-system-app-install-pull-apps.4324063/",
+        "source_type": "dump",
+        "device_model": "Samsung Galaxy Watch 4",
+        "firmware": "Wear OS 3 era firmware (source thread)",
+        "testing_status": "VERIFIED",
+        "verified_date": null,
+        "side_effects": "Direct pm list packages dump from a community-published device session. Enumeration evidence only. No removal test included."
+      }
+    },
+    "com.google.android.apps.maps": {
+      "package": "com.google.android.apps.maps",
+      "app_name": "Maps",
+      "manufacturer": "Google",
+      "category": "Navigation",
+      "description": "Google Maps navigation on the watch",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "UNKNOWN",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch4"
+      ],
+      "software_scope": [
+        "wear_os_3"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/wearos-watch-adb-commands-disable-enable-uninstall-restore-system-app-install-pull-apps.4324063/",
+        "source_type": "dump",
+        "device_model": "Samsung Galaxy Watch 4",
+        "firmware": "Wear OS 3 era firmware (source thread)",
+        "testing_status": "VERIFIED",
+        "verified_date": null,
+        "side_effects": "Direct pm list packages dump from a community-published device session. Enumeration evidence only. No removal test included."
+      }
+    },
+    "com.google.android.wearable.healthservices": {
+      "package": "com.google.android.wearable.healthservices",
+      "app_name": null,
+      "manufacturer": "Google",
+      "category": "Health engine",
+      "description": "Wear OS health and fitness data engine. Carries exercise and sensor data recording",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "UNKNOWN",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch4"
+      ],
+      "software_scope": [
+        "wear_os_3"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/wearos-watch-adb-commands-disable-enable-uninstall-restore-system-app-install-pull-apps.4324063/",
+        "source_type": "dump",
+        "device_model": "Samsung Galaxy Watch 4",
+        "firmware": "Wear OS 3 era firmware (source thread)",
+        "testing_status": "VERIFIED",
+        "verified_date": null,
+        "side_effects": "Direct pm list packages dump from a community-published device session. Enumeration evidence only. No removal test included."
+      }
+    },
+    "com.google.android.wearable.batteryservices": {
+      "package": "com.google.android.wearable.batteryservices",
+      "app_name": null,
+      "manufacturer": "Google",
+      "category": "Battery services",
+      "description": "Battery state and power services from Wear OS",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "UNKNOWN",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch4"
+      ],
+      "software_scope": [
+        "wear_os_3"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/wearos-watch-adb-commands-disable-enable-uninstall-restore-system-app-install-pull-apps.4324063/",
+        "source_type": "dump",
+        "device_model": "Samsung Galaxy Watch 4",
+        "firmware": "Wear OS 3 era firmware (source thread)",
+        "testing_status": "VERIFIED",
+        "verified_date": null,
+        "side_effects": "Direct pm list packages dump from a community-published device session. Enumeration evidence only. No removal test included."
+      }
+    },
+    "com.google.android.wearable.ambient": {
+      "package": "com.google.android.wearable.ambient",
+      "app_name": null,
+      "manufacturer": "Google",
+      "category": "Watch framework",
+      "description": "Always-on ambient mode services",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "UNKNOWN",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch4"
+      ],
+      "software_scope": [
+        "wear_os_3"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/wearos-watch-adb-commands-disable-enable-uninstall-restore-system-app-install-pull-apps.4324063/",
+        "source_type": "dump",
+        "device_model": "Samsung Galaxy Watch 4",
+        "firmware": "Wear OS 3 era firmware (source thread)",
+        "testing_status": "VERIFIED",
+        "verified_date": null,
+        "side_effects": "Direct pm list packages dump from a community-published device session. Enumeration evidence only. No removal test included."
+      }
+    },
+    "com.google.android.wearable.overlay.home.merlot": {
+      "package": "com.google.android.wearable.overlay.home.merlot",
+      "app_name": null,
+      "manufacturer": "Google",
+      "category": "Watch framework",
+      "description": "Watch home surface overlay (Merlot launcher overlay)",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "UNKNOWN",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch4"
+      ],
+      "software_scope": [
+        "wear_os_3"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/wearos-watch-adb-commands-disable-enable-uninstall-restore-system-app-install-pull-apps.4324063/",
+        "source_type": "dump",
+        "device_model": "Samsung Galaxy Watch 4",
+        "firmware": "Wear OS 3 era firmware (source thread)",
+        "testing_status": "VERIFIED",
+        "verified_date": null,
+        "side_effects": "Direct pm list packages dump from a community-published device session. Enumeration evidence only. No removal test included."
+      }
+    },
+    "com.google.android.wearable.frameworkpackagestubs": {
+      "package": "com.google.android.wearable.frameworkpackagestubs",
+      "app_name": null,
+      "manufacturer": "Google",
+      "category": "Watch framework",
+      "description": "Wear OS framework package stubs",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "UNKNOWN",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch4"
+      ],
+      "software_scope": [
+        "wear_os_3"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/wearos-watch-adb-commands-disable-enable-uninstall-restore-system-app-install-pull-apps.4324063/",
+        "source_type": "dump",
+        "device_model": "Samsung Galaxy Watch 4",
+        "firmware": "Wear OS 3 era firmware (source thread)",
+        "testing_status": "VERIFIED",
+        "verified_date": null,
+        "side_effects": "Direct pm list packages dump from a community-published device session. Enumeration evidence only. No removal test included."
+      }
+    },
+    "com.google.android.apps.wearable.systemui": {
+      "package": "com.google.android.apps.wearable.systemui",
+      "app_name": null,
+      "manufacturer": "Google",
+      "category": "System UI",
+      "description": "Wear OS system user interface. Draw watch face and notification surfaces",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "UNKNOWN",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch4"
+      ],
+      "software_scope": [
+        "wear_os_3"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/wearos-watch-adb-commands-disable-enable-uninstall-restore-system-app-install-pull-apps.4324063/",
+        "source_type": "dump",
+        "device_model": "Samsung Galaxy Watch 4",
+        "firmware": "Wear OS 3 era firmware (source thread)",
+        "testing_status": "VERIFIED",
+        "verified_date": null,
+        "side_effects": "Direct pm list packages dump from a community-published device session. Enumeration evidence only. No removal test included."
+      }
+    },
+    "com.google.android.apps.wearable.settings": {
+      "package": "com.google.android.apps.wearable.settings",
+      "app_name": "Settings",
+      "manufacturer": "Google",
+      "category": "System UI",
+      "description": "Wear OS settings application",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "UNKNOWN",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch4"
+      ],
+      "software_scope": [
+        "wear_os_3"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/wearos-watch-adb-commands-disable-enable-uninstall-restore-system-app-install-pull-apps.4324063/",
+        "source_type": "dump",
+        "device_model": "Samsung Galaxy Watch 4",
+        "firmware": "Wear OS 3 era firmware (source thread)",
+        "testing_status": "VERIFIED",
+        "verified_date": null,
+        "side_effects": "Direct pm list packages dump from a community-published device session. Enumeration evidence only. No removal test included."
+      }
+    },
+    "com.google.android.apps.wearable.retailattractloop": {
+      "package": "com.google.android.apps.wearable.retailattractloop",
+      "app_name": null,
+      "manufacturer": "Google",
+      "category": "Retail demo",
+      "description": "Retail store demo loop component. Not used in normal operation",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "UNKNOWN",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch4"
+      ],
+      "software_scope": [
+        "wear_os_3"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/wearos-watch-adb-commands-disable-enable-uninstall-restore-system-app-install-pull-apps.4324063/",
+        "source_type": "dump",
+        "device_model": "Samsung Galaxy Watch 4",
+        "firmware": "Wear OS 3 era firmware (source thread)",
+        "testing_status": "VERIFIED",
+        "verified_date": null,
+        "side_effects": "Direct pm list packages dump from a community-published device session. Enumeration evidence only. No removal test included."
+      }
+    },
+    "com.google.android.wearable.app": {
+      "package": "com.google.android.wearable.app",
+      "app_name": null,
+      "manufacturer": "Google",
+      "category": "Watch framework",
+      "description": "Wear OS core companion services. Phone-to-watch application association",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "UNKNOWN",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch4"
+      ],
+      "software_scope": [
+        "wear_os_3"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/wearos-watch-adb-commands-disable-enable-uninstall-restore-system-app-install-pull-apps.4324063/",
+        "source_type": "dump",
+        "device_model": "Samsung Galaxy Watch 4",
+        "firmware": "Wear OS 3 era firmware (source thread)",
+        "testing_status": "VERIFIED",
+        "verified_date": null,
+        "side_effects": "Direct pm list packages dump from a community-published device session. Enumeration evidence only. No removal test included."
+      }
+    },
+    "com.google.android.clockwork.oemsetup": {
+      "package": "com.google.android.clockwork.oemsetup",
+      "app_name": null,
+      "manufacturer": "Google",
+      "category": "Setup",
+      "description": "OEM setup stage of the watch boot",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "UNKNOWN",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch4"
+      ],
+      "software_scope": [
+        "wear_os_3"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/wearos-watch-adb-commands-disable-enable-uninstall-restore-system-app-install-pull-apps.4324063/",
+        "source_type": "dump",
+        "device_model": "Samsung Galaxy Watch 4",
+        "firmware": "Wear OS 3 era firmware (source thread)",
+        "testing_status": "VERIFIED",
+        "verified_date": null,
+        "side_effects": "Direct pm list packages dump from a community-published device session. Enumeration evidence only. No removal test included."
+      }
+    },
+    "com.google.android.clockworkicons": {
+      "package": "com.google.android.clockworkicons",
+      "app_name": null,
+      "manufacturer": "Google",
+      "category": "Watch framework",
+      "description": "System icon resource package",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "UNKNOWN",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch4"
+      ],
+      "software_scope": [
+        "wear_os_3"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/wearos-watch-adb-commands-disable-enable-uninstall-restore-system-app-install-pull-apps.4324063/",
+        "source_type": "dump",
+        "device_model": "Samsung Galaxy Watch 4",
+        "firmware": "Wear OS 3 era firmware (source thread)",
+        "testing_status": "VERIFIED",
+        "verified_date": null,
+        "side_effects": "Direct pm list packages dump from a community-published device session. Enumeration evidence only. No removal test included."
+      }
+    },
+    "com.samsung.android.wearable.sysui": {
+      "package": "com.samsung.android.wearable.sysui",
+      "app_name": null,
+      "manufacturer": "Samsung",
+      "category": "System UI",
+      "description": "Samsung watch user interface. Watch face and complications draw from here",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "UNKNOWN",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch4"
+      ],
+      "software_scope": [
+        "wear_os_3"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/wearos-watch-adb-commands-disable-enable-uninstall-restore-system-app-install-pull-apps.4324063/",
+        "source_type": "dump",
+        "device_model": "Samsung Galaxy Watch 4",
+        "firmware": "Wear OS 3 era firmware (source thread)",
+        "testing_status": "VERIFIED",
+        "verified_date": null,
+        "side_effects": "Direct pm list packages dump from a community-published device session. Enumeration evidence only. No removal test included."
+      }
+    },
+    "com.samsung.android.wearable.setupwizard": {
+      "package": "com.samsung.android.wearable.setupwizard",
+      "app_name": null,
+      "manufacturer": "Samsung",
+      "category": "Setup",
+      "description": "Watch setup wizard",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "UNKNOWN",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch4"
+      ],
+      "software_scope": [
+        "wear_os_3"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/wearos-watch-adb-commands-disable-enable-uninstall-restore-system-app-install-pull-apps.4324063/",
+        "source_type": "dump",
+        "device_model": "Samsung Galaxy Watch 4",
+        "firmware": "Wear OS 3 era firmware (source thread)",
+        "testing_status": "VERIFIED",
+        "verified_date": null,
+        "side_effects": "Direct pm list packages dump from a community-published device session. Enumeration evidence only. No removal test included."
+      }
+    },
+    "com.samsung.android.wearable.samsungaccount": {
+      "package": "com.samsung.android.wearable.samsungaccount",
+      "app_name": null,
+      "manufacturer": "Samsung",
+      "category": "Account sync",
+      "description": "Samsung account services for the watch",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "UNKNOWN",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch4"
+      ],
+      "software_scope": [
+        "wear_os_3"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/wearos-watch-adb-commands-disable-enable-uninstall-restore-system-app-install-pull-apps.4324063/",
+        "source_type": "dump",
+        "device_model": "Samsung Galaxy Watch 4",
+        "firmware": "Wear OS 3 era firmware (source thread)",
+        "testing_status": "VERIFIED",
+        "verified_date": null,
+        "side_effects": "Direct pm list packages dump from a community-published device session. Enumeration evidence only. No removal test included."
+      }
+    },
+    "com.samsung.android.wear.samsungaccount": {
+      "package": "com.samsung.android.wear.samsungaccount",
+      "app_name": null,
+      "manufacturer": "Samsung",
+      "category": "Account sync",
+      "description": "Samsung account services variant from the Wear branch",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "UNKNOWN",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch4"
+      ],
+      "software_scope": [
+        "wear_os_3"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/wearos-watch-adb-commands-disable-enable-uninstall-restore-system-app-install-pull-apps.4324063/",
+        "source_type": "dump",
+        "device_model": "Samsung Galaxy Watch 4",
+        "firmware": "Wear OS 3 era firmware (source thread)",
+        "testing_status": "VERIFIED",
+        "verified_date": null,
+        "side_effects": "Direct pm list packages dump from a community-published device session. Enumeration evidence only. No removal test included."
+      }
+    },
+    "com.samsung.android.wear.shealth": {
+      "package": "com.samsung.android.wear.shealth",
+      "app_name": "Samsung Health",
+      "manufacturer": "Samsung",
+      "category": "Health",
+      "description": "Samsung Health application on the watch",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "UNKNOWN",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch4"
+      ],
+      "software_scope": [
+        "wear_os_3"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/wearos-watch-adb-commands-disable-enable-uninstall-restore-system-app-install-pull-apps.4324063/",
+        "source_type": "dump",
+        "device_model": "Samsung Galaxy Watch 4",
+        "firmware": "Wear OS 3 era firmware (source thread)",
+        "testing_status": "VERIFIED",
+        "verified_date": null,
+        "side_effects": "Direct pm list packages dump from a community-published device session. Enumeration evidence only. No removal test included."
+      }
+    },
+    "com.samsung.android.shealthmonitor": {
+      "package": "com.samsung.android.shealthmonitor",
+      "app_name": "Samsung Health Monitor",
+      "manufacturer": "Samsung",
+      "category": "Health",
+      "description": "Samsung Health Monitor. Blood pressure and ECG features",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "UNKNOWN",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch4"
+      ],
+      "software_scope": [
+        "wear_os_3"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/wearos-watch-adb-commands-disable-enable-uninstall-restore-system-app-install-pull-apps.4324063/",
+        "source_type": "dump",
+        "device_model": "Samsung Galaxy Watch 4",
+        "firmware": "Wear OS 3 era firmware (source thread)",
+        "testing_status": "VERIFIED",
+        "verified_date": null,
+        "side_effects": "Direct pm list packages dump from a community-published device session. Enumeration evidence only. No removal test included."
+      }
+    },
+    "com.samsung.android.watch.compass": {
+      "package": "com.samsung.android.watch.compass",
+      "app_name": "Compass",
+      "manufacturer": "Samsung",
+      "category": "Clock and utility",
+      "description": "Compass utility",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "UNKNOWN",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch4"
+      ],
+      "software_scope": [
+        "wear_os_3"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/wearos-watch-adb-commands-disable-enable-uninstall-restore-system-app-install-pull-apps.4324063/",
+        "source_type": "dump",
+        "device_model": "Samsung Galaxy Watch 4",
+        "firmware": "Wear OS 3 era firmware (source thread)",
+        "testing_status": "VERIFIED",
+        "verified_date": null,
+        "side_effects": "Direct pm list packages dump from a community-published device session. Enumeration evidence only. No removal test included."
+      }
+    },
+    "com.samsung.android.watch.cameracontroller": {
+      "package": "com.samsung.android.watch.cameracontroller",
+      "app_name": "Camera controller",
+      "manufacturer": "Samsung",
+      "category": "Companion function",
+      "description": "Camera control from the watch for the paired phone camera",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "UNKNOWN",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch4"
+      ],
+      "software_scope": [
+        "wear_os_3"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/wearos-watch-adb-commands-disable-enable-uninstall-restore-system-app-install-pull-apps.4324063/",
+        "source_type": "dump",
+        "device_model": "Samsung Galaxy Watch 4",
+        "firmware": "Wear OS 3 era firmware (source thread)",
+        "testing_status": "VERIFIED",
+        "verified_date": null,
+        "side_effects": "Direct pm list packages dump from a community-published device session. Enumeration evidence only. No removal test included."
+      }
+    },
+    "com.samsung.android.watch.weather": {
+      "package": "com.samsung.android.watch.weather",
+      "app_name": "Weather",
+      "manufacturer": "Samsung",
+      "category": "Clock and utility",
+      "description": "Weather application and watch face complications",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "UNKNOWN",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch4"
+      ],
+      "software_scope": [
+        "wear_os_3"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/wearos-watch-adb-commands-disable-enable-uninstall-restore-system-app-install-pull-apps.4324063/",
+        "source_type": "dump",
+        "device_model": "Samsung Galaxy Watch 4",
+        "firmware": "Wear OS 3 era firmware (source thread)",
+        "testing_status": "VERIFIED",
+        "verified_date": null,
+        "side_effects": "Direct pm list packages dump from a community-published device session. Enumeration evidence only. No removal test included."
+      }
+    },
+    "com.samsung.android.gallery.watch": {
+      "package": "com.samsung.android.gallery.watch",
+      "app_name": "Gallery",
+      "manufacturer": "Samsung",
+      "category": "Media",
+      "description": "Gallery application for photos on the watch",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "UNKNOWN",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch4"
+      ],
+      "software_scope": [
+        "wear_os_3"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/wearos-watch-adb-commands-disable-enable-uninstall-restore-system-app-install-pull-apps.4324063/",
+        "source_type": "dump",
+        "device_model": "Samsung Galaxy Watch 4",
+        "firmware": "Wear OS 3 era firmware (source thread)",
+        "testing_status": "VERIFIED",
+        "verified_date": null,
+        "side_effects": "Direct pm list packages dump from a community-published device session. Enumeration evidence only. No removal test included."
+      }
+    },
+    "com.samsung.android.watch.worldclock": {
+      "package": "com.samsung.android.watch.worldclock",
+      "app_name": "World clock",
+      "manufacturer": "Samsung",
+      "category": "Clock and utility",
+      "description": "World clock utility",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "UNKNOWN",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch4"
+      ],
+      "software_scope": [
+        "wear_os_3"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/wearos-watch-adb-commands-disable-enable-uninstall-restore-system-app-install-pull-apps.4324063/",
+        "source_type": "dump",
+        "device_model": "Samsung Galaxy Watch 4",
+        "firmware": "Wear OS 3 era firmware (source thread)",
+        "testing_status": "VERIFIED",
+        "verified_date": null,
+        "side_effects": "Direct pm list packages dump from a community-published device session. Enumeration evidence only. No removal test included."
+      }
+    },
+    "com.samsung.android.watch.timer": {
+      "package": "com.samsung.android.watch.timer",
+      "app_name": "Timer",
+      "manufacturer": "Samsung",
+      "category": "Clock and utility",
+      "description": "Timer utility",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "UNKNOWN",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch4"
+      ],
+      "software_scope": [
+        "wear_os_3"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/wearos-watch-adb-commands-disable-enable-uninstall-restore-system-app-install-pull-apps.4324063/",
+        "source_type": "dump",
+        "device_model": "Samsung Galaxy Watch 4",
+        "firmware": "Wear OS 3 era firmware (source thread)",
+        "testing_status": "VERIFIED",
+        "verified_date": null,
+        "side_effects": "Direct pm list packages dump from a community-published device session. Enumeration evidence only. No removal test included."
+      }
+    },
+    "com.samsung.android.watch.stopwatch": {
+      "package": "com.samsung.android.watch.stopwatch",
+      "app_name": "Stopwatch",
+      "manufacturer": "Samsung",
+      "category": "Clock and utility",
+      "description": "Stopwatch utility",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "UNKNOWN",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch4"
+      ],
+      "software_scope": [
+        "wear_os_3"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/wearos-watch-adb-commands-disable-enable-uninstall-restore-system-app-install-pull-apps.4324063/",
+        "source_type": "dump",
+        "device_model": "Samsung Galaxy Watch 4",
+        "firmware": "Wear OS 3 era firmware (source thread)",
+        "testing_status": "VERIFIED",
+        "verified_date": null,
+        "side_effects": "Direct pm list packages dump from a community-published device session. Enumeration evidence only. No removal test included."
+      }
+    },
+    "com.samsung.android.watch.alarm": {
+      "package": "com.samsung.android.watch.alarm",
+      "app_name": "Alarm",
+      "manufacturer": "Samsung",
+      "category": "Clock and utility",
+      "description": "Alarm application. Carries user alarms",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "UNKNOWN",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch4"
+      ],
+      "software_scope": [
+        "wear_os_3"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/wearos-watch-adb-commands-disable-enable-uninstall-restore-system-app-install-pull-apps.4324063/",
+        "source_type": "dump",
+        "device_model": "Samsung Galaxy Watch 4",
+        "firmware": "Wear OS 3 era firmware (source thread)",
+        "testing_status": "VERIFIED",
+        "verified_date": null,
+        "side_effects": "Direct pm list packages dump from a community-published device session. Enumeration evidence only. No removal test included."
+      }
+    },
+    "com.samsung.android.watch.findmyphone": {
+      "package": "com.samsung.android.watch.findmyphone",
+      "app_name": "Find My Phone",
+      "manufacturer": "Samsung",
+      "category": "Find and locate",
+      "description": "Locate the paired phone from the watch",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "UNKNOWN",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch4"
+      ],
+      "software_scope": [
+        "wear_os_3"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/wearos-watch-adb-commands-disable-enable-uninstall-restore-system-app-install-pull-apps.4324063/",
+        "source_type": "dump",
+        "device_model": "Samsung Galaxy Watch 4",
+        "firmware": "Wear OS 3 era firmware (source thread)",
+        "testing_status": "VERIFIED",
+        "verified_date": null,
+        "side_effects": "Direct pm list packages dump from a community-published device session. Enumeration evidence only. No removal test included."
+      }
+    },
+    "com.samsung.android.watch.findmywatch": {
+      "package": "com.samsung.android.watch.findmywatch",
+      "app_name": "Find My Watch",
+      "manufacturer": "Samsung",
+      "category": "Find and locate",
+      "description": "Locate the watch from the phone",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "UNKNOWN",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch4"
+      ],
+      "software_scope": [
+        "wear_os_3"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/wearos-watch-adb-commands-disable-enable-uninstall-restore-system-app-install-pull-apps.4324063/",
+        "source_type": "dump",
+        "device_model": "Samsung Galaxy Watch 4",
+        "firmware": "Wear OS 3 era firmware (source thread)",
+        "testing_status": "VERIFIED",
+        "verified_date": null,
+        "side_effects": "Direct pm list packages dump from a community-published device session. Enumeration evidence only. No removal test included."
+      }
+    },
+    "com.samsung.android.watch.screencapture": {
+      "package": "com.samsung.android.watch.screencapture",
+      "app_name": "Screen capture",
+      "manufacturer": "Samsung",
+      "category": "Clock and utility",
+      "description": "Watch screen capture support",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "UNKNOWN",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch4"
+      ],
+      "software_scope": [
+        "wear_os_3"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/wearos-watch-adb-commands-disable-enable-uninstall-restore-system-app-install-pull-apps.4324063/",
+        "source_type": "dump",
+        "device_model": "Samsung Galaxy Watch 4",
+        "firmware": "Wear OS 3 era firmware (source thread)",
+        "testing_status": "VERIFIED",
+        "verified_date": null,
+        "side_effects": "Direct pm list packages dump from a community-published device session. Enumeration evidence only. No removal test included."
+      }
+    },
+    "com.samsung.android.watch.safety_assistance": {
+      "package": "com.samsung.android.watch.safety_assistance",
+      "app_name": "Safety and emergency",
+      "manufacturer": "Samsung",
+      "category": "Safety",
+      "description": "Safety and emergency assistance. Carries help requests",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "UNKNOWN",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch4"
+      ],
+      "software_scope": [
+        "wear_os_3"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/wearos-watch-adb-commands-disable-enable-uninstall-restore-system-app-install-pull-apps.4324063/",
+        "source_type": "dump",
+        "device_model": "Samsung Galaxy Watch 4",
+        "firmware": "Wear OS 3 era firmware (source thread)",
+        "testing_status": "VERIFIED",
+        "verified_date": null,
+        "side_effects": "Direct pm list packages dump from a community-published device session. Enumeration evidence only. No removal test included."
+      }
+    },
+    "com.samsung.android.watch.flashlight": {
+      "package": "com.samsung.android.watch.flashlight",
+      "app_name": "Flashlight",
+      "manufacturer": "Samsung",
+      "category": "Clock and utility",
+      "description": "Flashlight utility",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "UNKNOWN",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch4"
+      ],
+      "software_scope": [
+        "wear_os_3"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/wearos-watch-adb-commands-disable-enable-uninstall-restore-system-app-install-pull-apps.4324063/",
+        "source_type": "dump",
+        "device_model": "Samsung Galaxy Watch 4",
+        "firmware": "Wear OS 3 era firmware (source thread)",
+        "testing_status": "VERIFIED",
+        "verified_date": null,
+        "side_effects": "Direct pm list packages dump from a community-published device session. Enumeration evidence only. No removal test included."
+      }
+    },
+    "com.samsung.android.bixby.agent": {
+      "package": "com.samsung.android.bixby.agent",
+      "app_name": "Bixby",
+      "manufacturer": "Samsung",
+      "category": "Voice assistant",
+      "description": "Bixby voice assistant service",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "UNKNOWN",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch4"
+      ],
+      "software_scope": [
+        "wear_os_3"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/wearos-watch-adb-commands-disable-enable-uninstall-restore-system-app-install-pull-apps.4324063/",
+        "source_type": "dump",
+        "device_model": "Samsung Galaxy Watch 4",
+        "firmware": "Wear OS 3 era firmware (source thread)",
+        "testing_status": "VERIFIED",
+        "verified_date": null,
+        "side_effects": "Direct pm list packages dump from a community-published device session. Enumeration evidence only. No removal test included."
+      }
+    },
+    "com.samsung.android.bixby.wakeup": {
+      "package": "com.samsung.android.bixby.wakeup",
+      "app_name": "Bixby wake-up",
+      "manufacturer": "Samsung",
+      "category": "Voice assistant",
+      "description": "Bixby wake word detection",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "UNKNOWN",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch4"
+      ],
+      "software_scope": [
+        "wear_os_3"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/wearos-watch-adb-commands-disable-enable-uninstall-restore-system-app-install-pull-apps.4324063/",
+        "source_type": "dump",
+        "device_model": "Samsung Galaxy Watch 4",
+        "firmware": "Wear OS 3 era firmware (source thread)",
+        "testing_status": "VERIFIED",
+        "verified_date": null,
+        "side_effects": "Direct pm list packages dump from a community-published device session. Enumeration evidence only. No removal test included."
+      }
+    },
+    "com.samsung.android.honeyboard": {
+      "package": "com.samsung.android.honeyboard",
+      "app_name": "Samsung Keyboard",
+      "manufacturer": "Samsung",
+      "category": "Input method",
+      "description": "Samsung Keyboard for the watch. Text entry surface",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "UNKNOWN",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch4"
+      ],
+      "software_scope": [
+        "wear_os_3"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/wearos-watch-adb-commands-disable-enable-uninstall-restore-system-app-install-pull-apps.4324063/",
+        "source_type": "dump",
+        "device_model": "Samsung Galaxy Watch 4",
+        "firmware": "Wear OS 3 era firmware (source thread)",
+        "testing_status": "VERIFIED",
+        "verified_date": null,
+        "side_effects": "Direct pm list packages dump from a community-published device session. Enumeration evidence only. No removal test included."
+      }
+    },
+    "com.samsung.android.scloud": {
+      "package": "com.samsung.android.scloud",
+      "app_name": null,
+      "manufacturer": "Samsung",
+      "category": "Backup sync",
+      "description": "Samsung Cloud backup and sync components",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "UNKNOWN",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch4"
+      ],
+      "software_scope": [
+        "wear_os_3"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/wearos-watch-adb-commands-disable-enable-uninstall-restore-system-app-install-pull-apps.4324063/",
+        "source_type": "dump",
+        "device_model": "Samsung Galaxy Watch 4",
+        "firmware": "Wear OS 3 era firmware (source thread)",
+        "testing_status": "VERIFIED",
+        "verified_date": null,
+        "side_effects": "Direct pm list packages dump from a community-published device session. Enumeration evidence only. No removal test included."
+      }
+    },
+    "com.samsung.android.app.contacts": {
+      "package": "com.samsung.android.app.contacts",
+      "app_name": "Contacts",
+      "manufacturer": "Samsung",
+      "category": "Communication",
+      "description": "Contacts application and data provider services on the watch",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "UNKNOWN",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch4"
+      ],
+      "software_scope": [
+        "wear_os_3"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/wearos-watch-adb-commands-disable-enable-uninstall-restore-system-app-install-pull-apps.4324063/",
+        "source_type": "dump",
+        "device_model": "Samsung Galaxy Watch 4",
+        "firmware": "Wear OS 3 era firmware (source thread)",
+        "testing_status": "VERIFIED",
+        "verified_date": null,
+        "side_effects": "Direct pm list packages dump from a community-published device session. Enumeration evidence only. No removal test included."
+      }
+    },
+    "com.samsung.android.providers.contacts": {
+      "package": "com.samsung.android.providers.contacts",
+      "app_name": null,
+      "manufacturer": "Samsung",
+      "category": "Communication",
+      "description": "Contacts data provider on the watch",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "UNKNOWN",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch4"
+      ],
+      "software_scope": [
+        "wear_os_3"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/wearos-watch-adb-commands-disable-enable-uninstall-restore-system-app-install-pull-apps.4324063/",
+        "source_type": "dump",
+        "device_model": "Samsung Galaxy Watch 4",
+        "firmware": "Wear OS 3 era firmware (source thread)",
+        "testing_status": "VERIFIED",
+        "verified_date": null,
+        "side_effects": "Direct pm list packages dump from a community-published device session. Enumeration evidence only. No removal test included."
+      }
+    },
+    "com.samsung.android.calendar": {
+      "package": "com.samsung.android.calendar",
+      "app_name": "Calendar",
+      "manufacturer": "Samsung",
+      "category": "Clock and utility",
+      "description": "Calendar data surface for watch notifications",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "UNKNOWN",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch4"
+      ],
+      "software_scope": [
+        "wear_os_3"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/wearos-watch-adb-commands-disable-enable-uninstall-restore-system-app-install-pull-apps.4324063/",
+        "source_type": "dump",
+        "device_model": "Samsung Galaxy Watch 4",
+        "firmware": "Wear OS 3 era firmware (source thread)",
+        "testing_status": "VERIFIED",
+        "verified_date": null,
+        "side_effects": "Direct pm list packages dump from a community-published device session. Enumeration evidence only. No removal test included."
+      }
+    },
+    "com.samsung.android.app.reminder": {
+      "package": "com.samsung.android.app.reminder",
+      "app_name": "Samsung Reminder",
+      "manufacturer": "Samsung",
+      "category": "Clock and utility",
+      "description": "Samsung Reminder application",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "UNKNOWN",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch4"
+      ],
+      "software_scope": [
+        "wear_os_3"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/wearos-watch-adb-commands-disable-enable-uninstall-restore-system-app-install-pull-apps.4324063/",
+        "source_type": "dump",
+        "device_model": "Samsung Galaxy Watch 4",
+        "firmware": "Wear OS 3 era firmware (source thread)",
+        "testing_status": "VERIFIED",
+        "verified_date": null,
+        "side_effects": "Direct pm list packages dump from a community-published device session. Enumeration evidence only. No removal test included."
+      }
+    },
+    "com.samsung.android.messaging": {
+      "package": "com.samsung.android.messaging",
+      "app_name": "Messages",
+      "manufacturer": "Samsung",
+      "category": "Communication",
+      "description": "Messaging application for SMS on the watch",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "UNKNOWN",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch4"
+      ],
+      "software_scope": [
+        "wear_os_3"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/wearos-watch-adb-commands-disable-enable-uninstall-restore-system-app-install-pull-apps.4324063/",
+        "source_type": "dump",
+        "device_model": "Samsung Galaxy Watch 4",
+        "firmware": "Wear OS 3 era firmware (source thread)",
+        "testing_status": "VERIFIED",
+        "verified_date": null,
+        "side_effects": "Direct pm list packages dump from a community-published device session. Enumeration evidence only. No removal test included."
+      }
+    },
+    "com.samsung.android.dialer": {
+      "package": "com.samsung.android.dialer",
+      "app_name": "Phone",
+      "manufacturer": "Samsung",
+      "category": "Communication",
+      "description": "Phone dialer application on the watch",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "UNKNOWN",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch4"
+      ],
+      "software_scope": [
+        "wear_os_3"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/wearos-watch-adb-commands-disable-enable-uninstall-restore-system-app-install-pull-apps.4324063/",
+        "source_type": "dump",
+        "device_model": "Samsung Galaxy Watch 4",
+        "firmware": "Wear OS 3 era firmware (source thread)",
+        "testing_status": "VERIFIED",
+        "verified_date": null,
+        "side_effects": "Direct pm list packages dump from a community-published device session. Enumeration evidence only. No removal test included."
+      }
+    },
+    "com.samsung.android.smartgesture": {
+      "package": "com.samsung.android.smartgesture",
+      "app_name": null,
+      "manufacturer": "Samsung",
+      "category": "Watch framework",
+      "description": "Gesture service framework component",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "UNKNOWN",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch4"
+      ],
+      "software_scope": [
+        "wear_os_3"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/wearos-watch-adb-commands-disable-enable-uninstall-restore-system-app-install-pull-apps.4324063/",
+        "source_type": "dump",
+        "device_model": "Samsung Galaxy Watch 4",
+        "firmware": "Wear OS 3 era firmware (source thread)",
+        "testing_status": "VERIFIED",
+        "verified_date": null,
+        "side_effects": "Direct pm list packages dump from a community-published device session. Enumeration evidence only. No removal test included."
+      }
+    },
+    "com.samsung.android.incallui": {
+      "package": "com.samsung.android.incallui",
+      "app_name": null,
+      "manufacturer": "Samsung",
+      "category": "Communication",
+      "description": "In-call user interface",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "UNKNOWN",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch4"
+      ],
+      "software_scope": [
+        "wear_os_3"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/wearos-watch-adb-commands-disable-enable-uninstall-restore-system-app-install-pull-apps.4324063/",
+        "source_type": "dump",
+        "device_model": "Samsung Galaxy Watch 4",
+        "firmware": "Wear OS 3 era firmware (source thread)",
+        "testing_status": "VERIFIED",
+        "verified_date": null,
+        "side_effects": "Direct pm list packages dump from a community-published device session. Enumeration evidence only. No removal test included."
+      }
+    },
+    "com.samsung.android.mediacontroller": {
+      "package": "com.samsung.android.mediacontroller",
+      "app_name": null,
+      "manufacturer": "Samsung",
+      "category": "Media",
+      "description": "Media playback control services",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "UNKNOWN",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch4"
+      ],
+      "software_scope": [
+        "wear_os_3"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/wearos-watch-adb-commands-disable-enable-uninstall-restore-system-app-install-pull-apps.4324063/",
+        "source_type": "dump",
+        "device_model": "Samsung Galaxy Watch 4",
+        "firmware": "Wear OS 3 era firmware (source thread)",
+        "testing_status": "VERIFIED",
+        "verified_date": null,
+        "side_effects": "Direct pm list packages dump from a community-published device session. Enumeration evidence only. No removal test included."
+      }
+    },
+    "com.samsung.android.wear.musictransfer": {
+      "package": "com.samsung.android.wear.musictransfer",
+      "app_name": null,
+      "manufacturer": "Samsung",
+      "category": "Media",
+      "description": "Music transfer service between phone and watch",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "UNKNOWN",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch4"
+      ],
+      "software_scope": [
+        "wear_os_3"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/wearos-watch-adb-commands-disable-enable-uninstall-restore-system-app-install-pull-apps.4324063/",
+        "source_type": "dump",
+        "device_model": "Samsung Galaxy Watch 4",
+        "firmware": "Wear OS 3 era firmware (source thread)",
+        "testing_status": "VERIFIED",
+        "verified_date": null,
+        "side_effects": "Direct pm list packages dump from a community-published device session. Enumeration evidence only. No removal test included."
+      }
+    },
+    "com.samsung.android.video.wearable": {
+      "package": "com.samsung.android.video.wearable",
+      "app_name": "Video",
+      "manufacturer": "Samsung",
+      "category": "Media",
+      "description": "Video player application",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "UNKNOWN",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch4"
+      ],
+      "software_scope": [
+        "wear_os_3"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/wearos-watch-adb-commands-disable-enable-uninstall-restore-system-app-install-pull-apps.4324063/",
+        "source_type": "dump",
+        "device_model": "Samsung Galaxy Watch 4",
+        "firmware": "Wear OS 3 era firmware (source thread)",
+        "testing_status": "VERIFIED",
+        "verified_date": null,
+        "side_effects": "Direct pm list packages dump from a community-published device session. Enumeration evidence only. No removal test included."
+      }
+    },
+    "com.samsung.android.qrreader.watch": {
+      "package": "com.samsung.android.qrreader.watch",
+      "app_name": "QR reader",
+      "manufacturer": "Samsung",
+      "category": "Clock and utility",
+      "description": "QR code reader utility",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "UNKNOWN",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch4"
+      ],
+      "software_scope": [
+        "wear_os_3"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/wearos-watch-adb-commands-disable-enable-uninstall-restore-system-app-install-pull-apps.4324063/",
+        "source_type": "dump",
+        "device_model": "Samsung Galaxy Watch 4",
+        "firmware": "Wear OS 3 era firmware (source thread)",
+        "testing_status": "VERIFIED",
+        "verified_date": null,
+        "side_effects": "Direct pm list packages dump from a community-published device session. Enumeration evidence only. No removal test included."
+      }
+    },
+    "com.samsung.android.wear.samsungvoiceinput": {
+      "package": "com.samsung.android.wear.samsungvoiceinput",
+      "app_name": "Samsung voice input",
+      "manufacturer": "Samsung",
+      "category": "Input method",
+      "description": "Samsung voice dictation input method",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "UNKNOWN",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch4"
+      ],
+      "software_scope": [
+        "wear_os_3"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/wearos-watch-adb-commands-disable-enable-uninstall-restore-system-app-install-pull-apps.4324063/",
+        "source_type": "dump",
+        "device_model": "Samsung Galaxy Watch 4",
+        "firmware": "Wear OS 3 era firmware (source thread)",
+        "testing_status": "VERIFIED",
+        "verified_date": null,
+        "side_effects": "Direct pm list packages dump from a community-published device session. Enumeration evidence only. No removal test included."
+      }
+    },
+    "com.samsung.android.aircommandmanager": {
+      "package": "com.samsung.android.aircommandmanager",
+      "app_name": null,
+      "manufacturer": "Samsung",
+      "category": "Watch framework",
+      "description": "Air command service components",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "UNKNOWN",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch4"
+      ],
+      "software_scope": [
+        "wear_os_3"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/wearos-watch-adb-commands-disable-enable-uninstall-restore-system-app-install-pull-apps.4324063/",
+        "source_type": "dump",
+        "device_model": "Samsung Galaxy Watch 4",
+        "firmware": "Wear OS 3 era firmware (source thread)",
+        "testing_status": "VERIFIED",
+        "verified_date": null,
+        "side_effects": "Direct pm list packages dump from a community-published device session. Enumeration evidence only. No removal test included."
+      }
+    },
+    "com.samsung.accessibility": {
+      "package": "com.samsung.accessibility",
+      "app_name": null,
+      "manufacturer": "Samsung",
+      "category": "Accessibility",
+      "description": "Samsung accessibility services",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "UNKNOWN",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch4"
+      ],
+      "software_scope": [
+        "wear_os_3"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/wearos-watch-adb-commands-disable-enable-uninstall-restore-system-app-install-pull-apps.4324063/",
+        "source_type": "dump",
+        "device_model": "Samsung Galaxy Watch 4",
+        "firmware": "Wear OS 3 era firmware (source thread)",
+        "testing_status": "VERIFIED",
+        "verified_date": null,
+        "side_effects": "Direct pm list packages dump from a community-published device session. Enumeration evidence only. No removal test included."
+      }
+    },
+    "com.sec.android.app.samsungapps": {
+      "package": "com.sec.android.app.samsungapps",
+      "app_name": "Galaxy Store",
+      "manufacturer": "Samsung",
+      "category": "App store",
+      "description": "Samsung Galaxy Store application services",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "UNKNOWN",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch4"
+      ],
+      "software_scope": [
+        "wear_os_3"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/wearos-watch-adb-commands-disable-enable-uninstall-restore-system-app-install-pull-apps.4324063/",
+        "source_type": "dump",
+        "device_model": "Samsung Galaxy Watch 4",
+        "firmware": "Wear OS 3 era firmware (source thread)",
+        "testing_status": "VERIFIED",
+        "verified_date": null,
+        "side_effects": "Direct pm list packages dump from a community-published device session. Enumeration evidence only. No removal test included."
+      }
+    },
+    "com.sec.android.app.parser": {
+      "package": "com.sec.android.app.parser",
+      "app_name": null,
+      "manufacturer": "Samsung",
+      "category": "Function not established",
+      "description": "Function not established from public evidence",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "UNKNOWN",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch4"
+      ],
+      "software_scope": [
+        "wear_os_3"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/wearos-watch-adb-commands-disable-enable-uninstall-restore-system-app-install-pull-apps.4324063/",
+        "source_type": "dump",
+        "device_model": "Samsung Galaxy Watch 4",
+        "firmware": "Wear OS 3 era firmware (source thread)",
+        "testing_status": "VERIFIED",
+        "verified_date": null,
+        "side_effects": "Direct pm list packages dump from a community-published device session. Enumeration evidence only. No removal test included."
+      }
+    },
+    "com.sec.android.app.factorykeystring": {
+      "package": "com.sec.android.app.factorykeystring",
+      "app_name": null,
+      "manufacturer": "Samsung",
+      "category": "Function not established",
+      "description": "Function not established from public evidence",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "UNKNOWN",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch4"
+      ],
+      "software_scope": [
+        "wear_os_3"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/wearos-watch-adb-commands-disable-enable-uninstall-restore-system-app-install-pull-apps.4324063/",
+        "source_type": "dump",
+        "device_model": "Samsung Galaxy Watch 4",
+        "firmware": "Wear OS 3 era firmware (source thread)",
+        "testing_status": "VERIFIED",
+        "verified_date": null,
+        "side_effects": "Direct pm list packages dump from a community-published device session. Enumeration evidence only. No removal test included."
+      }
+    },
+    "com.sec.android.app.wlantest": {
+      "package": "com.sec.android.app.wlantest",
+      "app_name": null,
+      "manufacturer": "Samsung",
+      "category": "Diagnostics",
+      "description": "Wi-Fi diagnostic application",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "UNKNOWN",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch4"
+      ],
+      "software_scope": [
+        "wear_os_3"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/wearos-watch-adb-commands-disable-enable-uninstall-restore-system-app-install-pull-apps.4324063/",
+        "source_type": "dump",
+        "device_model": "Samsung Galaxy Watch 4",
+        "firmware": "Wear OS 3 era firmware (source thread)",
+        "testing_status": "VERIFIED",
+        "verified_date": null,
+        "side_effects": "Direct pm list packages dump from a community-published device session. Enumeration evidence only. No removal test included."
+      }
+    },
+    "com.sec.android.app.bluetoothtest": {
+      "package": "com.sec.android.app.bluetoothtest",
+      "app_name": null,
+      "manufacturer": "Samsung",
+      "category": "Diagnostics",
+      "description": "Bluetooth diagnostic application",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "UNKNOWN",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch4"
+      ],
+      "software_scope": [
+        "wear_os_3"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/wearos-watch-adb-commands-disable-enable-uninstall-restore-system-app-install-pull-apps.4324063/",
+        "source_type": "dump",
+        "device_model": "Samsung Galaxy Watch 4",
+        "firmware": "Wear OS 3 era firmware (source thread)",
+        "testing_status": "VERIFIED",
+        "verified_date": null,
+        "side_effects": "Direct pm list packages dump from a community-published device session. Enumeration evidence only. No removal test included."
+      }
+    },
+    "com.sec.android.app.hwmoduletest": {
+      "package": "com.sec.android.app.hwmoduletest",
+      "app_name": null,
+      "manufacturer": "Samsung",
+      "category": "Diagnostics",
+      "description": "Hardware module test application",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "UNKNOWN",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch4"
+      ],
+      "software_scope": [
+        "wear_os_3"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/wearos-watch-adb-commands-disable-enable-uninstall-restore-system-app-install-pull-apps.4324063/",
+        "source_type": "dump",
+        "device_model": "Samsung Galaxy Watch 4",
+        "firmware": "Wear OS 3 era firmware (source thread)",
+        "testing_status": "VERIFIED",
+        "verified_date": null,
+        "side_effects": "Direct pm list packages dump from a community-published device session. Enumeration evidence only. No removal test included."
+      }
+    },
+    "com.sec.android.app.servicemodeapp": {
+      "package": "com.sec.android.app.servicemodeapp",
+      "app_name": null,
+      "manufacturer": "Samsung",
+      "category": "Diagnostics",
+      "description": "Service mode application",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "UNKNOWN",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch4"
+      ],
+      "software_scope": [
+        "wear_os_3"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/wearos-watch-adb-commands-disable-enable-uninstall-restore-system-app-install-pull-apps.4324063/",
+        "source_type": "dump",
+        "device_model": "Samsung Galaxy Watch 4",
+        "firmware": "Wear OS 3 era firmware (source thread)",
+        "testing_status": "VERIFIED",
+        "verified_date": null,
+        "side_effects": "Direct pm list packages dump from a community-published device session. Enumeration evidence only. No removal test included."
+      }
+    },
+    "com.sec.android.app.personalization": {
+      "package": "com.sec.android.app.personalization",
+      "app_name": null,
+      "manufacturer": "Samsung",
+      "category": "Diagnostics",
+      "description": "Personalization agent from the factory branch",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "UNKNOWN",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch4"
+      ],
+      "software_scope": [
+        "wear_os_3"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/wearos-watch-adb-commands-disable-enable-uninstall-restore-system-app-install-pull-apps.4324063/",
+        "source_type": "dump",
+        "device_model": "Samsung Galaxy Watch 4",
+        "firmware": "Wear OS 3 era firmware (source thread)",
+        "testing_status": "VERIFIED",
+        "verified_date": null,
+        "side_effects": "Direct pm list packages dump from a community-published device session. Enumeration evidence only. No removal test included."
+      }
+    },
+    "com.sec.android.soagent": {
+      "package": "com.sec.android.soagent",
+      "app_name": null,
+      "manufacturer": "Samsung",
+      "category": "Infrastructure",
+      "description": "Sales and software agent infrastructure services",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "UNKNOWN",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch4"
+      ],
+      "software_scope": [
+        "wear_os_3"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/wearos-watch-adb-commands-disable-enable-uninstall-restore-system-app-install-pull-apps.4324063/",
+        "source_type": "dump",
+        "device_model": "Samsung Galaxy Watch 4",
+        "firmware": "Wear OS 3 era firmware (source thread)",
+        "testing_status": "VERIFIED",
+        "verified_date": null,
+        "side_effects": "Direct pm list packages dump from a community-published device session. Enumeration evidence only. No removal test included."
+      }
+    },
+    "com.sec.android.diagmonagent": {
+      "package": "com.sec.android.diagmonagent",
+      "app_name": null,
+      "manufacturer": "Samsung",
+      "category": "Infrastructure",
+      "description": "Diagnostic and monitoring agent infrastructure services",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "UNKNOWN",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch4"
+      ],
+      "software_scope": [
+        "wear_os_3"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/wearos-watch-adb-commands-disable-enable-uninstall-restore-system-app-install-pull-apps.4324063/",
+        "source_type": "dump",
+        "device_model": "Samsung Galaxy Watch 4",
+        "firmware": "Wear OS 3 era firmware (source thread)",
+        "testing_status": "VERIFIED",
+        "verified_date": null,
+        "side_effects": "Direct pm list packages dump from a community-published device session. Enumeration evidence only. No removal test included."
+      }
+    },
+    "com.samsung.android.dqagent": {
+      "package": "com.samsung.android.dqagent",
+      "app_name": null,
+      "manufacturer": "Samsung",
+      "category": "Infrastructure",
+      "description": "Device quality agent infrastructure services",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "UNKNOWN",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch4"
+      ],
+      "software_scope": [
+        "wear_os_3"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/wearos-watch-adb-commands-disable-enable-uninstall-restore-system-app-install-pull-apps.4324063/",
+        "source_type": "dump",
+        "device_model": "Samsung Galaxy Watch 4",
+        "firmware": "Wear OS 3 era firmware (source thread)",
+        "testing_status": "VERIFIED",
+        "verified_date": null,
+        "side_effects": "Direct pm list packages dump from a community-published device session. Enumeration evidence only. No removal test included."
+      }
+    },
+    "com.wssyncmldm": {
+      "package": "com.wssyncmldm",
+      "app_name": null,
+      "manufacturer": "Samsung",
+      "category": "Infrastructure",
+      "description": "OTA update and sync infrastructure services",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "UNKNOWN",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch4"
+      ],
+      "software_scope": [
+        "wear_os_3"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/wearos-watch-adb-commands-disable-enable-uninstall-restore-system-app-install-pull-apps.4324063/",
+        "source_type": "dump",
+        "device_model": "Samsung Galaxy Watch 4",
+        "firmware": "Wear OS 3 era firmware (source thread)",
+        "testing_status": "VERIFIED",
+        "verified_date": null,
+        "side_effects": "Direct pm list packages dump from a community-published device session. Enumeration evidence only. No removal test included."
+      }
+    },
+    "com.samsung.android.knox.wkes": {
+      "package": "com.samsung.android.knox.wkes",
+      "app_name": null,
+      "manufacturer": "Samsung",
+      "category": "Security infrastructure",
+      "description": "Samsung Knox security framework components",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "UNKNOWN",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch4"
+      ],
+      "software_scope": [
+        "wear_os_3"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/wearos-watch-adb-commands-disable-enable-uninstall-restore-system-app-install-pull-apps.4324063/",
+        "source_type": "dump",
+        "device_model": "Samsung Galaxy Watch 4",
+        "firmware": "Wear OS 3 era firmware (source thread)",
+        "testing_status": "VERIFIED",
+        "verified_date": null,
+        "side_effects": "Direct pm list packages dump from a community-published device session. Enumeration evidence only. No removal test included."
+      }
+    },
+    "com.samsung.android.wearable.knox.attestation": {
+      "package": "com.samsung.android.wearable.knox.attestation",
+      "app_name": null,
+      "manufacturer": "Samsung",
+      "category": "Security infrastructure",
+      "description": "Device attestation components on Samsung watches",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "UNKNOWN",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch4"
+      ],
+      "software_scope": [
+        "wear_os_3"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/wearos-watch-adb-commands-disable-enable-uninstall-restore-system-app-install-pull-apps.4324063/",
+        "source_type": "dump",
+        "device_model": "Samsung Galaxy Watch 4",
+        "firmware": "Wear OS 3 era firmware (source thread)",
+        "testing_status": "VERIFIED",
+        "verified_date": null,
+        "side_effects": "Direct pm list packages dump from a community-published device session. Enumeration evidence only. No removal test included."
+      }
+    },
+    "com.sec.location.nfwlocationprivacy": {
+      "package": "com.sec.location.nfwlocationprivacy",
+      "app_name": null,
+      "manufacturer": "Samsung",
+      "category": "Location infrastructure",
+      "description": "Location privacy network framework component",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "UNKNOWN",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch4"
+      ],
+      "software_scope": [
+        "wear_os_3"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/wearos-watch-adb-commands-disable-enable-uninstall-restore-system-app-install-pull-apps.4324063/",
+        "source_type": "dump",
+        "device_model": "Samsung Galaxy Watch 4",
+        "firmware": "Wear OS 3 era firmware (source thread)",
+        "testing_status": "VERIFIED",
+        "verified_date": null,
+        "side_effects": "Direct pm list packages dump from a community-published device session. Enumeration evidence only. No removal test included."
+      }
+    },
+    "com.samsung.SMT": {
+      "package": "com.samsung.SMT",
+      "app_name": null,
+      "manufacturer": "Samsung",
+      "category": "Diagnostics",
+      "description": "Samsung mobile tooling diagnostic component",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "UNKNOWN",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch4"
+      ],
+      "software_scope": [
+        "wear_os_3"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/wearos-watch-adb-commands-disable-enable-uninstall-restore-system-app-install-pull-apps.4324063/",
+        "source_type": "dump",
+        "device_model": "Samsung Galaxy Watch 4",
+        "firmware": "Wear OS 3 era firmware (source thread)",
+        "testing_status": "VERIFIED",
+        "verified_date": null,
+        "side_effects": "Direct pm list packages dump from a community-published device session. Enumeration evidence only. No removal test included."
+      }
+    },
+    "com.monotype.android.font.foundation": {
+      "package": "com.monotype.android.font.foundation",
+      "app_name": null,
+      "manufacturer": "Samsung",
+      "category": "Fonts and input",
+      "description": "Monotype font foundation package",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "UNKNOWN",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch4"
+      ],
+      "software_scope": [
+        "wear_os_3"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/wearos-watch-adb-commands-disable-enable-uninstall-restore-system-app-install-pull-apps.4324063/",
+        "source_type": "dump",
+        "device_model": "Samsung Galaxy Watch 4",
+        "firmware": "Wear OS 3 era firmware (source thread)",
+        "testing_status": "VERIFIED",
+        "verified_date": null,
+        "side_effects": "Direct pm list packages dump from a community-published device session. Enumeration evidence only. No removal test included."
+      }
+    },
+    "com.monotype.android.font.samsungone": {
+      "package": "com.monotype.android.font.samsungone",
+      "app_name": null,
+      "manufacturer": "Samsung",
+      "category": "Fonts and input",
+      "description": "Samsung One font package",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "UNKNOWN",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch4"
+      ],
+      "software_scope": [
+        "wear_os_3"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/wearos-watch-adb-commands-disable-enable-uninstall-restore-system-app-install-pull-apps.4324063/",
+        "source_type": "dump",
+        "device_model": "Samsung Galaxy Watch 4",
+        "firmware": "Wear OS 3 era firmware (source thread)",
+        "testing_status": "VERIFIED",
+        "verified_date": null,
+        "side_effects": "Direct pm list packages dump from a community-published device session. Enumeration evidence only. No removal test included."
+      }
+    },
+    "com.samsung.android.networkstack": {
+      "package": "com.samsung.android.networkstack",
+      "app_name": null,
+      "manufacturer": "Samsung",
+      "category": "Connectivity",
+      "description": "Network stack services on Samsung watches",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "UNKNOWN",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch4"
+      ],
+      "software_scope": [
+        "wear_os_3"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/wearos-watch-adb-commands-disable-enable-uninstall-restore-system-app-install-pull-apps.4324063/",
+        "source_type": "dump",
+        "device_model": "Samsung Galaxy Watch 4",
+        "firmware": "Wear OS 3 era firmware (source thread)",
+        "testing_status": "VERIFIED",
+        "verified_date": null,
+        "side_effects": "Direct pm list packages dump from a community-published device session. Enumeration evidence only. No removal test included."
+      }
+    },
+    "com.skms.android.agent": {
+      "package": "com.skms.android.agent",
+      "app_name": null,
+      "manufacturer": "Samsung",
+      "category": "Security infrastructure",
+      "description": "eSE/keymaster agent security infrastructure",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "UNKNOWN",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch4"
+      ],
+      "software_scope": [
+        "wear_os_3"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/wearos-watch-adb-commands-disable-enable-uninstall-restore-system-app-install-pull-apps.4324063/",
+        "source_type": "dump",
+        "device_model": "Samsung Galaxy Watch 4",
+        "firmware": "Wear OS 3 era firmware (source thread)",
+        "testing_status": "VERIFIED",
+        "verified_date": null,
+        "side_effects": "Direct pm list packages dump from a community-published device session. Enumeration evidence only. No removal test included."
+      }
+    },
+    "com.sem.factoryapp": {
+      "package": "com.sem.factoryapp",
+      "app_name": null,
+      "manufacturer": "Samsung",
+      "category": "Diagnostics",
+      "description": "Factory application",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "UNKNOWN",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch4"
+      ],
+      "software_scope": [
+        "wear_os_3"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/wearos-watch-adb-commands-disable-enable-uninstall-restore-system-app-install-pull-apps.4324063/",
+        "source_type": "dump",
+        "device_model": "Samsung Galaxy Watch 4",
+        "firmware": "Wear OS 3 era firmware (source thread)",
+        "testing_status": "VERIFIED",
+        "verified_date": null,
+        "side_effects": "Direct pm list packages dump from a community-published device session. Enumeration evidence only. No removal test included."
+      }
+    },
+    "com.sec.usbsettings": {
+      "package": "com.sec.usbsettings",
+      "app_name": null,
+      "manufacturer": "Samsung",
+      "category": "Diagnostics",
+      "description": "USB settings diagnostic component",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "UNKNOWN",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch4"
+      ],
+      "software_scope": [
+        "wear_os_3"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/wearos-watch-adb-commands-disable-enable-uninstall-restore-system-app-install-pull-apps.4324063/",
+        "source_type": "dump",
+        "device_model": "Samsung Galaxy Watch 4",
+        "firmware": "Wear OS 3 era firmware (source thread)",
+        "testing_status": "VERIFIED",
+        "verified_date": null,
+        "side_effects": "Direct pm list packages dump from a community-published device session. Enumeration evidence only. No removal test included."
+      }
+    },
+    "com.sec.factory": {
+      "package": "com.sec.factory",
+      "app_name": null,
+      "manufacturer": "Samsung",
+      "category": "Diagnostics",
+      "description": "Factory test application",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "UNKNOWN",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch4"
+      ],
+      "software_scope": [
+        "wear_os_3"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/wearos-watch-adb-commands-disable-enable-uninstall-restore-system-app-install-pull-apps.4324063/",
+        "source_type": "dump",
+        "device_model": "Samsung Galaxy Watch 4",
+        "firmware": "Wear OS 3 era firmware (source thread)",
+        "testing_status": "VERIFIED",
+        "verified_date": null,
+        "side_effects": "Direct pm list packages dump from a community-published device session. Enumeration evidence only. No removal test included."
+      }
+    },
+    "com.sec.phone": {
+      "package": "com.sec.phone",
+      "app_name": null,
+      "manufacturer": "Samsung",
+      "category": "Diagnostics",
+      "description": "Phone factory test component",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "UNKNOWN",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch4"
+      ],
+      "software_scope": [
+        "wear_os_3"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/wearos-watch-adb-commands-disable-enable-uninstall-restore-system-app-install-pull-apps.4324063/",
+        "source_type": "dump",
+        "device_model": "Samsung Galaxy Watch 4",
+        "firmware": "Wear OS 3 era firmware (source thread)",
+        "testing_status": "VERIFIED",
+        "verified_date": null,
+        "side_effects": "Direct pm list packages dump from a community-published device session. Enumeration evidence only. No removal test included."
+      }
+    },
+    "com.samsung.aasaservice": {
+      "package": "com.samsung.aasaservice",
+      "app_name": null,
+      "manufacturer": "Samsung",
+      "category": "Infrastructure",
+      "description": "Samsung service infrastructure component",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "UNKNOWN",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch4"
+      ],
+      "software_scope": [
+        "wear_os_3"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/wearos-watch-adb-commands-disable-enable-uninstall-restore-system-app-install-pull-apps.4324063/",
+        "source_type": "dump",
+        "device_model": "Samsung Galaxy Watch 4",
+        "firmware": "Wear OS 3 era firmware (source thread)",
+        "testing_status": "VERIFIED",
+        "verified_date": null,
+        "side_effects": "Direct pm list packages dump from a community-published device session. Enumeration evidence only. No removal test included."
+      }
+    },
+    "com.samsung.android.cidmanager": {
+      "package": "com.samsung.android.cidmanager",
+      "app_name": null,
+      "manufacturer": "Samsung",
+      "category": "Infrastructure",
+      "description": "CID manager component",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "UNKNOWN",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch4"
+      ],
+      "software_scope": [
+        "wear_os_3"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/wearos-watch-adb-commands-disable-enable-uninstall-restore-system-app-install-pull-apps.4324063/",
+        "source_type": "dump",
+        "device_model": "Samsung Galaxy Watch 4",
+        "firmware": "Wear OS 3 era firmware (source thread)",
+        "testing_status": "VERIFIED",
+        "verified_date": null,
+        "side_effects": "Direct pm list packages dump from a community-published device session. Enumeration evidence only. No removal test included."
+      }
+    },
+    "com.samsung.android.advancedcallservice": {
+      "package": "com.samsung.android.advancedcallservice",
+      "app_name": null,
+      "manufacturer": "Samsung",
+      "category": "Communication",
+      "description": "Advanced call service components",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "UNKNOWN",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch4"
+      ],
+      "software_scope": [
+        "wear_os_3"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/wearos-watch-adb-commands-disable-enable-uninstall-restore-system-app-install-pull-apps.4324063/",
+        "source_type": "dump",
+        "device_model": "Samsung Galaxy Watch 4",
+        "firmware": "Wear OS 3 era firmware (source thread)",
+        "testing_status": "VERIFIED",
+        "verified_date": null,
+        "side_effects": "Direct pm list packages dump from a community-published device session. Enumeration evidence only. No removal test included."
+      }
+    },
+    "com.samsung.android.mdecservice": {
+      "package": "com.samsung.android.mdecservice",
+      "app_name": null,
+      "manufacturer": "Samsung",
+      "category": "Communication",
+      "description": "Multi-device experience service components",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "UNKNOWN",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch4"
+      ],
+      "software_scope": [
+        "wear_os_3"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/wearos-watch-adb-commands-disable-enable-uninstall-restore-system-app-install-pull-apps.4324063/",
+        "source_type": "dump",
+        "device_model": "Samsung Galaxy Watch 4",
+        "firmware": "Wear OS 3 era firmware (source thread)",
+        "testing_status": "VERIFIED",
+        "verified_date": null,
+        "side_effects": "Direct pm list packages dump from a community-published device session. Enumeration evidence only. No removal test included."
+      }
+    },
+    "com.samsung.euicc": {
+      "package": "com.samsung.euicc",
+      "app_name": null,
+      "manufacturer": "Samsung",
+      "category": "Infrastructure",
+      "description": "eSIM management components",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "UNKNOWN",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch4"
+      ],
+      "software_scope": [
+        "wear_os_3"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/wearos-watch-adb-commands-disable-enable-uninstall-restore-system-app-install-pull-apps.4324063/",
+        "source_type": "dump",
+        "device_model": "Samsung Galaxy Watch 4",
+        "firmware": "Wear OS 3 era firmware (source thread)",
+        "testing_status": "VERIFIED",
+        "verified_date": null,
+        "side_effects": "Direct pm list packages dump from a community-published device session. Enumeration evidence only. No removal test included."
+      }
+    },
+    "com.samsung.euicc.wmservice": {
+      "package": "com.samsung.euicc.wmservice",
+      "app_name": null,
+      "manufacturer": "Samsung",
+      "category": "Infrastructure",
+      "description": "eSIM management service component",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "UNKNOWN",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch4"
+      ],
+      "software_scope": [
+        "wear_os_3"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/wearos-watch-adb-commands-disable-enable-uninstall-restore-system-app-install-pull-apps.4324063/",
+        "source_type": "dump",
+        "device_model": "Samsung Galaxy Watch 4",
+        "firmware": "Wear OS 3 era firmware (source thread)",
+        "testing_status": "VERIFIED",
+        "verified_date": null,
+        "side_effects": "Direct pm list packages dump from a community-published device session. Enumeration evidence only. No removal test included."
+      }
+    },
+    "com.sec.imsservice": {
+      "package": "com.sec.imsservice",
+      "app_name": null,
+      "manufacturer": "Samsung",
+      "category": "Communication infrastructure",
+      "description": "IMS service components",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "UNKNOWN",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch4"
+      ],
+      "software_scope": [
+        "wear_os_3"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/wearos-watch-adb-commands-disable-enable-uninstall-restore-system-app-install-pull-apps.4324063/",
+        "source_type": "dump",
+        "device_model": "Samsung Galaxy Watch 4",
+        "firmware": "Wear OS 3 era firmware (source thread)",
+        "testing_status": "VERIFIED",
+        "verified_date": null,
+        "side_effects": "Direct pm list packages dump from a community-published device session. Enumeration evidence only. No removal test included."
+      }
+    },
+    "com.sec.bcservice": {
+      "package": "com.sec.bcservice",
+      "app_name": null,
+      "manufacturer": "Samsung",
+      "category": "Communication infrastructure",
+      "description": "BC service component",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "UNKNOWN",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch4"
+      ],
+      "software_scope": [
+        "wear_os_3"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/wearos-watch-adb-commands-disable-enable-uninstall-restore-system-app-install-pull-apps.4324063/",
+        "source_type": "dump",
+        "device_model": "Samsung Galaxy Watch 4",
+        "firmware": "Wear OS 3 era firmware (source thread)",
+        "testing_status": "VERIFIED",
+        "verified_date": null,
+        "side_effects": "Direct pm list packages dump from a community-published device session. Enumeration evidence only. No removal test included."
+      }
+    },
+    "com.sec.modem.settings": {
+      "package": "com.sec.modem.settings",
+      "app_name": null,
+      "manufacturer": "Samsung",
+      "category": "Communication infrastructure",
+      "description": "Modem settings component",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "UNKNOWN",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch4"
+      ],
+      "software_scope": [
+        "wear_os_3"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/wearos-watch-adb-commands-disable-enable-uninstall-restore-system-app-install-pull-apps.4324063/",
+        "source_type": "dump",
+        "device_model": "Samsung Galaxy Watch 4",
+        "firmware": "Wear OS 3 era firmware (source thread)",
+        "testing_status": "VERIFIED",
+        "verified_date": null,
+        "side_effects": "Direct pm list packages dump from a community-published device session. Enumeration evidence only. No removal test included."
+      }
+    },
+    "com.samsung.hidden.SKT": {
+      "package": "com.samsung.hidden.SKT",
+      "app_name": null,
+      "manufacturer": "Samsung",
+      "category": "Carrier infrastructure",
+      "description": "Carrier (SK Telecom) hidden component",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "UNKNOWN",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch4"
+      ],
+      "software_scope": [
+        "wear_os_3"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/wearos-watch-adb-commands-disable-enable-uninstall-restore-system-app-install-pull-apps.4324063/",
+        "source_type": "dump",
+        "device_model": "Samsung Galaxy Watch 4",
+        "firmware": "Wear OS 3 era firmware (source thread)",
+        "testing_status": "VERIFIED",
+        "verified_date": null,
+        "side_effects": "Direct pm list packages dump from a community-published device session. Enumeration evidence only. No removal test included."
+      }
+    },
+    "com.sk.vas.tshare": {
+      "package": "com.sk.vas.tshare",
+      "app_name": null,
+      "manufacturer": "Samsung",
+      "category": "Carrier infrastructure",
+      "description": "Carrier value-added service component",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "UNKNOWN",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch4"
+      ],
+      "software_scope": [
+        "wear_os_3"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/wearos-watch-adb-commands-disable-enable-uninstall-restore-system-app-install-pull-apps.4324063/",
+        "source_type": "dump",
+        "device_model": "Samsung Galaxy Watch 4",
+        "firmware": "Wear OS 3 era firmware (source thread)",
+        "testing_status": "VERIFIED",
+        "verified_date": null,
+        "side_effects": "Direct pm list packages dump from a community-published device session. Enumeration evidence only. No removal test included."
+      }
+    },
+    "com.ims.dm": {
+      "package": "com.ims.dm",
+      "app_name": null,
+      "manufacturer": "Samsung",
+      "category": "Communication infrastructure",
+      "description": "IMS device management component",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "UNKNOWN",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch4"
+      ],
+      "software_scope": [
+        "wear_os_3"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/wearos-watch-adb-commands-disable-enable-uninstall-restore-system-app-install-pull-apps.4324063/",
+        "source_type": "dump",
+        "device_model": "Samsung Galaxy Watch 4",
+        "firmware": "Wear OS 3 era firmware (source thread)",
+        "testing_status": "VERIFIED",
+        "verified_date": null,
+        "side_effects": "Direct pm list packages dump from a community-published device session. Enumeration evidence only. No removal test included."
+      }
+    },
+    "com.samsung.rtl": {
+      "package": "com.samsung.rtl",
+      "app_name": null,
+      "manufacturer": "Samsung",
+      "category": "Carrier infrastructure",
+      "description": "RTL carrier infrastructure component",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "UNKNOWN",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch4"
+      ],
+      "software_scope": [
+        "wear_os_3"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/wearos-watch-adb-commands-disable-enable-uninstall-restore-system-app-install-pull-apps.4324063/",
+        "source_type": "dump",
+        "device_model": "Samsung Galaxy Watch 4",
+        "firmware": "Wear OS 3 era firmware (source thread)",
+        "testing_status": "VERIFIED",
+        "verified_date": null,
+        "side_effects": "Direct pm list packages dump from a community-published device session. Enumeration evidence only. No removal test included."
+      }
+    },
+    "com.samsung.rtl.rtlassistant": {
+      "package": "com.samsung.rtl.rtlassistant",
+      "app_name": null,
+      "manufacturer": "Samsung",
+      "category": "Carrier infrastructure",
+      "description": "RTL assistant carrier component",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "UNKNOWN",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch4"
+      ],
+      "software_scope": [
+        "wear_os_3"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/wearos-watch-adb-commands-disable-enable-uninstall-restore-system-app-install-pull-apps.4324063/",
+        "source_type": "dump",
+        "device_model": "Samsung Galaxy Watch 4",
+        "firmware": "Wear OS 3 era firmware (source thread)",
+        "testing_status": "VERIFIED",
+        "verified_date": null,
+        "side_effects": "Direct pm list packages dump from a community-published device session. Enumeration evidence only. No removal test included."
+      }
+    },
+    "com.samsung.android.wcs.extension": {
+      "package": "com.samsung.android.wcs.extension",
+      "app_name": null,
+      "manufacturer": "Samsung",
+      "category": "Watch framework",
+      "description": "Wear connectivity service extension component",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "UNKNOWN",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch4"
+      ],
+      "software_scope": [
+        "wear_os_3"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/wearos-watch-adb-commands-disable-enable-uninstall-restore-system-app-install-pull-apps.4324063/",
+        "source_type": "dump",
+        "device_model": "Samsung Galaxy Watch 4",
+        "firmware": "Wear OS 3 era firmware (source thread)",
+        "testing_status": "VERIFIED",
+        "verified_date": null,
+        "side_effects": "Direct pm list packages dump from a community-published device session. Enumeration evidence only. No removal test included."
+      }
+    },
+    "com.samsung.android.wear.blockednumber": {
+      "package": "com.samsung.android.wear.blockednumber",
+      "app_name": null,
+      "manufacturer": "Samsung",
+      "category": "Communication",
+      "description": "Blocked number provider on the watch",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "UNKNOWN",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch4"
+      ],
+      "software_scope": [
+        "wear_os_3"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/wearos-watch-adb-commands-disable-enable-uninstall-restore-system-app-install-pull-apps.4324063/",
+        "source_type": "dump",
+        "device_model": "Samsung Galaxy Watch 4",
+        "firmware": "Wear OS 3 era firmware (source thread)",
+        "testing_status": "VERIFIED",
+        "verified_date": null,
+        "side_effects": "Direct pm list packages dump from a community-published device session. Enumeration evidence only. No removal test included."
+      }
+    },
+    "com.samsung.android.batterysavingsettings": {
+      "package": "com.samsung.android.batterysavingsettings",
+      "app_name": null,
+      "manufacturer": "Samsung",
+      "category": "Battery services",
+      "description": "Battery saving settings components",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "UNKNOWN",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch4"
+      ],
+      "software_scope": [
+        "wear_os_3"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/wearos-watch-adb-commands-disable-enable-uninstall-restore-system-app-install-pull-apps.4324063/",
+        "source_type": "dump",
+        "device_model": "Samsung Galaxy Watch 4",
+        "firmware": "Wear OS 3 era firmware (source thread)",
+        "testing_status": "VERIFIED",
+        "verified_date": null,
+        "side_effects": "Direct pm list packages dump from a community-published device session. Enumeration evidence only. No removal test included."
+      }
+    },
+    "com.samsung.android.storage.watchstoragemanager": {
+      "package": "com.samsung.android.storage.watchstoragemanager",
+      "app_name": null,
+      "manufacturer": "Samsung",
+      "category": "Watch framework",
+      "description": "Storage management component on the watch",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "UNKNOWN",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch4"
+      ],
+      "software_scope": [
+        "wear_os_3"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/wearos-watch-adb-commands-disable-enable-uninstall-restore-system-app-install-pull-apps.4324063/",
+        "source_type": "dump",
+        "device_model": "Samsung Galaxy Watch 4",
+        "firmware": "Wear OS 3 era firmware (source thread)",
+        "testing_status": "VERIFIED",
+        "verified_date": null,
+        "side_effects": "Direct pm list packages dump from a community-published device session. Enumeration evidence only. No removal test included."
+      }
+    },
+    "com.samsung.android.clientconnection": {
+      "package": "com.samsung.android.clientconnection",
+      "app_name": null,
+      "manufacturer": "Samsung",
+      "category": "Connectivity",
+      "description": "Watch and client connection services. Core pairing connection routes",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "UNKNOWN",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch4"
+      ],
+      "software_scope": [
+        "wear_os_3"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/wearos-watch-adb-commands-disable-enable-uninstall-restore-system-app-install-pull-apps.4324063/",
+        "source_type": "dump",
+        "device_model": "Samsung Galaxy Watch 4",
+        "firmware": "Wear OS 3 era firmware (source thread)",
+        "testing_status": "VERIFIED",
+        "verified_date": null,
+        "side_effects": "Direct pm list packages dump from a community-published device session. Enumeration evidence only. No removal test included."
+      }
+    },
+    "com.samsung.android.apps.wearable.recent": {
+      "package": "com.samsung.android.apps.wearable.recent",
+      "app_name": "Recent apps",
+      "manufacturer": "Samsung",
+      "category": "System UI",
+      "description": "Recent applications surface on the watch",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "UNKNOWN",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch4"
+      ],
+      "software_scope": [
+        "wear_os_3"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/wearos-watch-adb-commands-disable-enable-uninstall-restore-system-app-install-pull-apps.4324063/",
+        "source_type": "dump",
+        "device_model": "Samsung Galaxy Watch 4",
+        "firmware": "Wear OS 3 era firmware (source thread)",
+        "testing_status": "VERIFIED",
+        "verified_date": null,
+        "side_effects": "Direct pm list packages dump from a community-published device session. Enumeration evidence only. No removal test included."
+      }
+    },
+    "com.samsung.wear.contacts.sync": {
+      "package": "com.samsung.wear.contacts.sync",
+      "app_name": null,
+      "manufacturer": "Samsung",
+      "category": "Communication",
+      "description": "Wear-to-phone contacts synchronization component",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "UNKNOWN",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch4"
+      ],
+      "software_scope": [
+        "wear_os_3"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/wearos-watch-adb-commands-disable-enable-uninstall-restore-system-app-install-pull-apps.4324063/",
+        "source_type": "dump",
+        "device_model": "Samsung Galaxy Watch 4",
+        "firmware": "Wear OS 3 era firmware (source thread)",
+        "testing_status": "VERIFIED",
+        "verified_date": null,
+        "side_effects": "Direct pm list packages dump from a community-published device session. Enumeration evidence only. No removal test included."
+      }
+    },
+    "com.samsung.android.stextclassifier": {
+      "package": "com.samsung.android.stextclassifier",
+      "app_name": null,
+      "manufacturer": "Samsung",
+      "category": "Watch framework",
+      "description": "Smart text classifier component",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "UNKNOWN",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch4"
+      ],
+      "software_scope": [
+        "wear_os_3"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/wearos-watch-adb-commands-disable-enable-uninstall-restore-system-app-install-pull-apps.4324063/",
+        "source_type": "dump",
+        "device_model": "Samsung Galaxy Watch 4",
+        "firmware": "Wear OS 3 era firmware (source thread)",
+        "testing_status": "VERIFIED",
+        "verified_date": null,
+        "side_effects": "Direct pm list packages dump from a community-published device session. Enumeration evidence only. No removal test included."
+      }
+    },
+    "com.samsung.android.app.telephonyui": {
+      "package": "com.samsung.android.app.telephonyui",
+      "app_name": null,
+      "manufacturer": "Samsung",
+      "category": "Communication",
+      "description": "Telephony user interface component",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "UNKNOWN",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch4"
+      ],
+      "software_scope": [
+        "wear_os_3"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/wearos-watch-adb-commands-disable-enable-uninstall-restore-system-app-install-pull-apps.4324063/",
+        "source_type": "dump",
+        "device_model": "Samsung Galaxy Watch 4",
+        "firmware": "Wear OS 3 era firmware (source thread)",
+        "testing_status": "VERIFIED",
+        "verified_date": null,
+        "side_effects": "Direct pm list packages dump from a community-published device session. Enumeration evidence only. No removal test included."
+      }
+    },
+    "com.samsung.android.sdk.handwriting.watch": {
+      "package": "com.samsung.android.sdk.handwriting.watch",
+      "app_name": null,
+      "manufacturer": "Samsung",
+      "category": "Input method",
+      "description": "Handwriting input SDK component",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "UNKNOWN",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch4"
+      ],
+      "software_scope": [
+        "wear_os_3"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/wearos-watch-adb-commands-disable-enable-uninstall-restore-system-app-install-pull-apps.4324063/",
+        "source_type": "dump",
+        "device_model": "Samsung Galaxy Watch 4",
+        "firmware": "Wear OS 3 era firmware (source thread)",
+        "testing_status": "VERIFIED",
+        "verified_date": null,
+        "side_effects": "Direct pm list packages dump from a community-published device session. Enumeration evidence only. No removal test included."
+      }
+    },
+    "com.samsung.android.app.esimkeystring": {
+      "package": "com.samsung.android.app.esimkeystring",
+      "app_name": null,
+      "manufacturer": "Samsung",
+      "category": "Infrastructure",
+      "description": "eSIM key management component",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "UNKNOWN",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch4"
+      ],
+      "software_scope": [
+        "wear_os_3"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/wearos-watch-adb-commands-disable-enable-uninstall-restore-system-app-install-pull-apps.4324063/",
+        "source_type": "dump",
+        "device_model": "Samsung Galaxy Watch 4",
+        "firmware": "Wear OS 3 era firmware (source thread)",
+        "testing_status": "VERIFIED",
+        "verified_date": null,
+        "side_effects": "Direct pm list packages dump from a community-published device session. Enumeration evidence only. No removal test included."
+      }
+    },
+    "com.samsung.sec.android.application.csc": {
+      "package": "com.samsung.sec.android.application.csc",
+      "app_name": null,
+      "manufacturer": "Samsung",
+      "category": "Carrier infrastructure",
+      "description": "Carrier-specific configuration application",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "UNKNOWN",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch4"
+      ],
+      "software_scope": [
+        "wear_os_3"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/wearos-watch-adb-commands-disable-enable-uninstall-restore-system-app-install-pull-apps.4324063/",
+        "source_type": "dump",
+        "device_model": "Samsung Galaxy Watch 4",
+        "firmware": "Wear OS 3 era firmware (source thread)",
+        "testing_status": "VERIFIED",
+        "verified_date": null,
+        "side_effects": "Direct pm list packages dump from a community-published device session. Enumeration evidence only. No removal test included."
+      }
+    },
+    "com.samsung.android.samsungnetworklocation": {
+      "package": "com.samsung.android.samsungnetworklocation",
+      "app_name": null,
+      "manufacturer": "Samsung",
+      "category": "Location infrastructure",
+      "description": "Samsung network location services",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "UNKNOWN",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch4"
+      ],
+      "software_scope": [
+        "wear_os_3"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/wearos-watch-adb-commands-disable-enable-uninstall-restore-system-app-install-pull-apps.4324063/",
+        "source_type": "dump",
+        "device_model": "Samsung Galaxy Watch 4",
+        "firmware": "Wear OS 3 era firmware (source thread)",
+        "testing_status": "VERIFIED",
+        "verified_date": null,
+        "side_effects": "Direct pm list packages dump from a community-published device session. Enumeration evidence only. No removal test included."
+      }
+    },
+    "com.samsung.android.location.locproxy": {
+      "package": "com.samsung.android.location.locproxy",
+      "app_name": null,
+      "manufacturer": "Samsung",
+      "category": "Location infrastructure",
+      "description": "Location proxy components",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "UNKNOWN",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch4"
+      ],
+      "software_scope": [
+        "wear_os_3"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/wearos-watch-adb-commands-disable-enable-uninstall-restore-system-app-install-pull-apps.4324063/",
+        "source_type": "dump",
+        "device_model": "Samsung Galaxy Watch 4",
+        "firmware": "Wear OS 3 era firmware (source thread)",
+        "testing_status": "VERIFIED",
+        "verified_date": null,
+        "side_effects": "Direct pm list packages dump from a community-published device session. Enumeration evidence only. No removal test included."
+      }
+    },
+    "com.samsung.android.mcfds": {
+      "package": "com.samsung.android.mcfds",
+      "app_name": null,
+      "manufacturer": "Samsung",
+      "category": "Find and locate",
+      "description": "Samsung mobile find service component",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "UNKNOWN",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch4"
+      ],
+      "software_scope": [
+        "wear_os_3"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/wearos-watch-adb-commands-disable-enable-uninstall-restore-system-app-install-pull-apps.4324063/",
+        "source_type": "dump",
+        "device_model": "Samsung Galaxy Watch 4",
+        "firmware": "Wear OS 3 era firmware (source thread)",
+        "testing_status": "VERIFIED",
+        "verified_date": null,
+        "side_effects": "Direct pm list packages dump from a community-published device session. Enumeration evidence only. No removal test included."
+      }
+    },
+    "com.samsung.packageinstalleroverlay": {
+      "package": "com.samsung.packageinstalleroverlay",
+      "app_name": null,
+      "manufacturer": "Samsung",
+      "category": "App install",
+      "description": "Samsung package installer overlay",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "UNKNOWN",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch4"
+      ],
+      "software_scope": [
+        "wear_os_3"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/wearos-watch-adb-commands-disable-enable-uninstall-restore-system-app-install-pull-apps.4324063/",
+        "source_type": "dump",
+        "device_model": "Samsung Galaxy Watch 4",
+        "firmware": "Wear OS 3 era firmware (source thread)",
+        "testing_status": "VERIFIED",
+        "verified_date": null,
+        "side_effects": "Direct pm list packages dump from a community-published device session. Enumeration evidence only. No removal test included."
+      }
+    },
+    "com.samsung.android.watch.stf": {
+      "package": "com.samsung.android.watch.stf",
+      "app_name": null,
+      "manufacturer": "Samsung",
+      "category": "Watch framework",
+      "description": "Watch framework component. Function detail not established",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "UNKNOWN",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch4"
+      ],
+      "software_scope": [
+        "wear_os_3"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/wearos-watch-adb-commands-disable-enable-uninstall-restore-system-app-install-pull-apps.4324063/",
+        "source_type": "dump",
+        "device_model": "Samsung Galaxy Watch 4",
+        "firmware": "Wear OS 3 era firmware (source thread)",
+        "testing_status": "VERIFIED",
+        "verified_date": null,
+        "side_effects": "Direct pm list packages dump from a community-published device session. Enumeration evidence only. No removal test included."
+      }
+    },
+    "com.samsung.android.watch.watchface.analoguefont": {
+      "package": "com.samsung.android.watch.watchface.analoguefont",
+      "app_name": null,
+      "manufacturer": "Samsung",
+      "category": "Watch face",
+      "description": "Analyse-font analog watch face package",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "UNKNOWN",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch4"
+      ],
+      "software_scope": [
+        "wear_os_3"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/wearos-watch-adb-commands-disable-enable-uninstall-restore-system-app-install-pull-apps.4324063/",
+        "source_type": "dump",
+        "device_model": "Samsung Galaxy Watch 4",
+        "firmware": "Wear OS 3 era firmware (source thread)",
+        "testing_status": "VERIFIED",
+        "verified_date": null,
+        "side_effects": "Direct pm list packages dump from a community-published device session. Enumeration evidence only. No removal test included."
+      }
+    },
+    "com.samsung.android.watch.watchface.simplecomplication": {
+      "package": "com.samsung.android.watch.watchface.simplecomplication",
+      "app_name": null,
+      "manufacturer": "Samsung",
+      "category": "Watch face",
+      "description": "Simple complication watch face package",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "UNKNOWN",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch4"
+      ],
+      "software_scope": [
+        "wear_os_3"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/wearos-watch-adb-commands-disable-enable-uninstall-restore-system-app-install-pull-apps.4324063/",
+        "source_type": "dump",
+        "device_model": "Samsung Galaxy Watch 4",
+        "firmware": "Wear OS 3 era firmware (source thread)",
+        "testing_status": "VERIFIED",
+        "verified_date": null,
+        "side_effects": "Direct pm list packages dump from a community-published device session. Enumeration evidence only. No removal test included."
+      }
+    },
+    "com.samsung.android.watch.watchface.premiumanalog": {
+      "package": "com.samsung.android.watch.watchface.premiumanalog",
+      "app_name": null,
+      "manufacturer": "Samsung",
+      "category": "Watch face",
+      "description": "Premium analog watch face package",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "UNKNOWN",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch4"
+      ],
+      "software_scope": [
+        "wear_os_3"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/wearos-watch-adb-commands-disable-enable-uninstall-restore-system-app-install-pull-apps.4324063/",
+        "source_type": "dump",
+        "device_model": "Samsung Galaxy Watch 4",
+        "firmware": "Wear OS 3 era firmware (source thread)",
+        "testing_status": "VERIFIED",
+        "verified_date": null,
+        "side_effects": "Direct pm list packages dump from a community-published device session. Enumeration evidence only. No removal test included."
+      }
+    },
+    "com.samsung.android.watch.watchface.myphoto": {
+      "package": "com.samsung.android.watch.watchface.myphoto",
+      "app_name": null,
+      "manufacturer": "Samsung",
+      "category": "Watch face",
+      "description": "Photo watch face package",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "UNKNOWN",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch4"
+      ],
+      "software_scope": [
+        "wear_os_3"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/wearos-watch-adb-commands-disable-enable-uninstall-restore-system-app-install-pull-apps.4324063/",
+        "source_type": "dump",
+        "device_model": "Samsung Galaxy Watch 4",
+        "firmware": "Wear OS 3 era firmware (source thread)",
+        "testing_status": "VERIFIED",
+        "verified_date": null,
+        "side_effects": "Direct pm list packages dump from a community-published device session. Enumeration evidence only. No removal test included."
+      }
+    },
+    "com.samsung.android.watch.watchface.mystyle": {
+      "package": "com.samsung.android.watch.watchface.mystyle",
+      "app_name": null,
+      "manufacturer": "Samsung",
+      "category": "Watch face",
+      "description": "My Style watch face package",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "UNKNOWN",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch4"
+      ],
+      "software_scope": [
+        "wear_os_3"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/wearos-watch-adb-commands-disable-enable-uninstall-restore-system-app-install-pull-apps.4324063/",
+        "source_type": "dump",
+        "device_model": "Samsung Galaxy Watch 4",
+        "firmware": "Wear OS 3 era firmware (source thread)",
+        "testing_status": "VERIFIED",
+        "verified_date": null,
+        "side_effects": "Direct pm list packages dump from a community-published device session. Enumeration evidence only. No removal test included."
+      }
+    },
+    "com.samsung.android.watch.watchface.basicclock": {
+      "package": "com.samsung.android.watch.watchface.basicclock",
+      "app_name": null,
+      "manufacturer": "Samsung",
+      "category": "Watch face",
+      "description": "Basic clock watch face package",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "UNKNOWN",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch4"
+      ],
+      "software_scope": [
+        "wear_os_3"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/wearos-watch-adb-commands-disable-enable-uninstall-restore-system-app-install-pull-apps.4324063/",
+        "source_type": "dump",
+        "device_model": "Samsung Galaxy Watch 4",
+        "firmware": "Wear OS 3 era firmware (source thread)",
+        "testing_status": "VERIFIED",
+        "verified_date": null,
+        "side_effects": "Direct pm list packages dump from a community-published device session. Enumeration evidence only. No removal test included."
+      }
+    },
+    "com.samsung.android.watch.watchface.simpleclassic": {
+      "package": "com.samsung.android.watch.watchface.simpleclassic",
+      "app_name": null,
+      "manufacturer": "Samsung",
+      "category": "Watch face",
+      "description": "Simple classic watch face package",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "UNKNOWN",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch4"
+      ],
+      "software_scope": [
+        "wear_os_3"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/wearos-watch-adb-commands-disable-enable-uninstall-restore-system-app-install-pull-apps.4324063/",
+        "source_type": "dump",
+        "device_model": "Samsung Galaxy Watch 4",
+        "firmware": "Wear OS 3 era firmware (source thread)",
+        "testing_status": "VERIFIED",
+        "verified_date": null,
+        "side_effects": "Direct pm list packages dump from a community-published device session. Enumeration evidence only. No removal test included."
+      }
+    },
+    "com.samsung.android.watch.watchface.dualwatch": {
+      "package": "com.samsung.android.watch.watchface.dualwatch",
+      "app_name": null,
+      "manufacturer": "Samsung",
+      "category": "Watch face",
+      "description": "Dual watch face package",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "UNKNOWN",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch4"
+      ],
+      "software_scope": [
+        "wear_os_3"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/wearos-watch-adb-commands-disable-enable-uninstall-restore-system-app-install-pull-apps.4324063/",
+        "source_type": "dump",
+        "device_model": "Samsung Galaxy Watch 4",
+        "firmware": "Wear OS 3 era firmware (source thread)",
+        "testing_status": "VERIFIED",
+        "verified_date": null,
+        "side_effects": "Direct pm list packages dump from a community-published device session. Enumeration evidence only. No removal test included."
+      }
+    },
+    "com.samsung.android.watch.watchface.together": {
+      "package": "com.samsung.android.watch.watchface.together",
+      "app_name": null,
+      "manufacturer": "Samsung",
+      "category": "Watch face",
+      "description": "Together watch face package",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "UNKNOWN",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch4"
+      ],
+      "software_scope": [
+        "wear_os_3"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/wearos-watch-adb-commands-disable-enable-uninstall-restore-system-app-install-pull-apps.4324063/",
+        "source_type": "dump",
+        "device_model": "Samsung Galaxy Watch 4",
+        "firmware": "Wear OS 3 era firmware (source thread)",
+        "testing_status": "VERIFIED",
+        "verified_date": null,
+        "side_effects": "Direct pm list packages dump from a community-published device session. Enumeration evidence only. No removal test included."
+      }
+    },
+    "com.samsung.android.watch.watchface.typography": {
+      "package": "com.samsung.android.watch.watchface.typography",
+      "app_name": null,
+      "manufacturer": "Samsung",
+      "category": "Watch face",
+      "description": "Typography watch face package",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "UNKNOWN",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch4"
+      ],
+      "software_scope": [
+        "wear_os_3"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/wearos-watch-adb-commands-disable-enable-uninstall-restore-system-app-install-pull-apps.4324063/",
+        "source_type": "dump",
+        "device_model": "Samsung Galaxy Watch 4",
+        "firmware": "Wear OS 3 era firmware (source thread)",
+        "testing_status": "VERIFIED",
+        "verified_date": null,
+        "side_effects": "Direct pm list packages dump from a community-published device session. Enumeration evidence only. No removal test included."
+      }
+    },
+    "com.samsung.android.watch.watchface.large": {
+      "package": "com.samsung.android.watch.watchface.large",
+      "app_name": null,
+      "manufacturer": "Samsung",
+      "category": "Watch face",
+      "description": "Large watch face package",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "UNKNOWN",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch4"
+      ],
+      "software_scope": [
+        "wear_os_3"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/wearos-watch-adb-commands-disable-enable-uninstall-restore-system-app-install-pull-apps.4324063/",
+        "source_type": "dump",
+        "device_model": "Samsung Galaxy Watch 4",
+        "firmware": "Wear OS 3 era firmware (source thread)",
+        "testing_status": "VERIFIED",
+        "verified_date": null,
+        "side_effects": "Direct pm list packages dump from a community-published device session. Enumeration evidence only. No removal test included."
+      }
+    },
+    "com.samsung.android.watch.watchface.animal": {
+      "package": "com.samsung.android.watch.watchface.animal",
+      "app_name": null,
+      "manufacturer": "Samsung",
+      "category": "Watch face",
+      "description": "Animal watch face package",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "UNKNOWN",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch4"
+      ],
+      "software_scope": [
+        "wear_os_3"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/wearos-watch-adb-commands-disable-enable-uninstall-restore-system-app-install-pull-apps.4324063/",
+        "source_type": "dump",
+        "device_model": "Samsung Galaxy Watch 4",
+        "firmware": "Wear OS 3 era firmware (source thread)",
+        "testing_status": "VERIFIED",
+        "verified_date": null,
+        "side_effects": "Direct pm list packages dump from a community-published device session. Enumeration evidence only. No removal test included."
+      }
+    },
+    "com.samsung.android.watch.watchface.digitalmodular": {
+      "package": "com.samsung.android.watch.watchface.digitalmodular",
+      "app_name": null,
+      "manufacturer": "Samsung",
+      "category": "Watch face",
+      "description": "Digital modular watch face package",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "UNKNOWN",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch4"
+      ],
+      "software_scope": [
+        "wear_os_3"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/wearos-watch-adb-commands-disable-enable-uninstall-restore-system-app-install-pull-apps.4324063/",
+        "source_type": "dump",
+        "device_model": "Samsung Galaxy Watch 4",
+        "firmware": "Wear OS 3 era firmware (source thread)",
+        "testing_status": "VERIFIED",
+        "verified_date": null,
+        "side_effects": "Direct pm list packages dump from a community-published device session. Enumeration evidence only. No removal test included."
+      }
+    },
+    "com.samsung.android.watch.watchface.aremoji": {
+      "package": "com.samsung.android.watch.watchface.aremoji",
+      "app_name": null,
+      "manufacturer": "Samsung",
+      "category": "Watch face",
+      "description": "AR Emoji watch face package",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "UNKNOWN",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch4"
+      ],
+      "software_scope": [
+        "wear_os_3"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/wearos-watch-adb-commands-disable-enable-uninstall-restore-system-app-install-pull-apps.4324063/",
+        "source_type": "dump",
+        "device_model": "Samsung Galaxy Watch 4",
+        "firmware": "Wear OS 3 era firmware (source thread)",
+        "testing_status": "VERIFIED",
+        "verified_date": null,
+        "side_effects": "Direct pm list packages dump from a community-published device session. Enumeration evidence only. No removal test included."
+      }
+    },
+    "com.samsung.android.watch.watchface.analogmodular": {
+      "package": "com.samsung.android.watch.watchface.analogmodular",
+      "app_name": null,
+      "manufacturer": "Samsung",
+      "category": "Watch face",
+      "description": "Analog modular watch face package",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "UNKNOWN",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch4"
+      ],
+      "software_scope": [
+        "wear_os_3"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/wearos-watch-adb-commands-disable-enable-uninstall-restore-system-app-install-pull-apps.4324063/",
+        "source_type": "dump",
+        "device_model": "Samsung Galaxy Watch 4",
+        "firmware": "Wear OS 3 era firmware (source thread)",
+        "testing_status": "VERIFIED",
+        "verified_date": null,
+        "side_effects": "Direct pm list packages dump from a community-published device session. Enumeration evidence only. No removal test included."
+      }
+    },
+    "com.samsung.android.watch.watchface.emergency": {
+      "package": "com.samsung.android.watch.watchface.emergency",
+      "app_name": null,
+      "manufacturer": "Samsung",
+      "category": "Watch face",
+      "description": "Emergency watch face package. Carries emergency function surfaces",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "UNKNOWN",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch4"
+      ],
+      "software_scope": [
+        "wear_os_3"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/wearos-watch-adb-commands-disable-enable-uninstall-restore-system-app-install-pull-apps.4324063/",
+        "source_type": "dump",
+        "device_model": "Samsung Galaxy Watch 4",
+        "firmware": "Wear OS 3 era firmware (source thread)",
+        "testing_status": "VERIFIED",
+        "verified_date": null,
+        "side_effects": "Direct pm list packages dump from a community-published device session. Enumeration evidence only. No removal test included."
+      }
+    },
+    "com.samsung.android.watch.watchface.simpleanalogue": {
+      "package": "com.samsung.android.watch.watchface.simpleanalogue",
+      "app_name": null,
+      "manufacturer": "Samsung",
+      "category": "Watch face",
+      "description": "Simple analog watch face package",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "UNKNOWN",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch4"
+      ],
+      "software_scope": [
+        "wear_os_3"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/wearos-watch-adb-commands-disable-enable-uninstall-restore-system-app-install-pull-apps.4324063/",
+        "source_type": "dump",
+        "device_model": "Samsung Galaxy Watch 4",
+        "firmware": "Wear OS 3 era firmware (source thread)",
+        "testing_status": "VERIFIED",
+        "verified_date": null,
+        "side_effects": "Direct pm list packages dump from a community-published device session. Enumeration evidence only. No removal test included."
+      }
+    },
+    "com.samsung.android.watch.watchface.bitmoji": {
+      "package": "com.samsung.android.watch.watchface.bitmoji",
+      "app_name": null,
+      "manufacturer": "Samsung",
+      "category": "Watch face",
+      "description": "Bitmoji watch face package",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "UNKNOWN",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch4"
+      ],
+      "software_scope": [
+        "wear_os_3"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/wearos-watch-adb-commands-disable-enable-uninstall-restore-system-app-install-pull-apps.4324063/",
+        "source_type": "dump",
+        "device_model": "Samsung Galaxy Watch 4",
+        "firmware": "Wear OS 3 era firmware (source thread)",
+        "testing_status": "VERIFIED",
+        "verified_date": null,
+        "side_effects": "Direct pm list packages dump from a community-published device session. Enumeration evidence only. No removal test included."
+      }
+    },
+    "com.samsung.android.watch.watchface.superfiction": {
+      "package": "com.samsung.android.watch.watchface.superfiction",
+      "app_name": null,
+      "manufacturer": "Samsung",
+      "category": "Watch face",
+      "description": "Superfiction watch face package",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "UNKNOWN",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch4"
+      ],
+      "software_scope": [
+        "wear_os_3"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/wearos-watch-adb-commands-disable-enable-uninstall-restore-system-app-install-pull-apps.4324063/",
+        "source_type": "dump",
+        "device_model": "Samsung Galaxy Watch 4",
+        "firmware": "Wear OS 3 era firmware (source thread)",
+        "testing_status": "VERIFIED",
+        "verified_date": null,
+        "side_effects": "Direct pm list packages dump from a community-published device session. Enumeration evidence only. No removal test included."
+      }
+    },
+    "com.samsung.android.watch.watchface.digitalfont": {
+      "package": "com.samsung.android.watch.watchface.digitalfont",
+      "app_name": null,
+      "manufacturer": "Samsung",
+      "category": "Watch face",
+      "description": "Digital font watch face package",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "UNKNOWN",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch4"
+      ],
+      "software_scope": [
+        "wear_os_3"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/wearos-watch-adb-commands-disable-enable-uninstall-restore-system-app-install-pull-apps.4324063/",
+        "source_type": "dump",
+        "device_model": "Samsung Galaxy Watch 4",
+        "firmware": "Wear OS 3 era firmware (source thread)",
+        "testing_status": "VERIFIED",
+        "verified_date": null,
+        "side_effects": "Direct pm list packages dump from a community-published device session. Enumeration evidence only. No removal test included."
+      }
+    },
+    "com.samsung.android.watch.watchface.endangeredanimal": {
+      "package": "com.samsung.android.watch.watchface.endangeredanimal",
+      "app_name": null,
+      "manufacturer": "Samsung",
+      "category": "Watch face",
+      "description": "Endangered animal watch face package",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "UNKNOWN",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch4"
+      ],
+      "software_scope": [
+        "wear_os_3"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/wearos-watch-adb-commands-disable-enable-uninstall-restore-system-app-install-pull-apps.4324063/",
+        "source_type": "dump",
+        "device_model": "Samsung Galaxy Watch 4",
+        "firmware": "Wear OS 3 era firmware (source thread)",
+        "testing_status": "VERIFIED",
+        "verified_date": null,
+        "side_effects": "Direct pm list packages dump from a community-published device session. Enumeration evidence only. No removal test included."
+      }
+    },
+    "com.samsung.android.watch.watchface.tickingsound": {
+      "package": "com.samsung.android.watch.watchface.tickingsound",
+      "app_name": null,
+      "manufacturer": "Samsung",
+      "category": "Watch face",
+      "description": "Ticking sound watch face package",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "UNKNOWN",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch4"
+      ],
+      "software_scope": [
+        "wear_os_3"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/wearos-watch-adb-commands-disable-enable-uninstall-restore-system-app-install-pull-apps.4324063/",
+        "source_type": "dump",
+        "device_model": "Samsung Galaxy Watch 4",
+        "firmware": "Wear OS 3 era firmware (source thread)",
+        "testing_status": "VERIFIED",
+        "verified_date": null,
+        "side_effects": "Direct pm list packages dump from a community-published device session. Enumeration evidence only. No removal test included."
+      }
+    },
+    "com.samsung.android.watch.watchface.companionhelper": {
+      "package": "com.samsung.android.watch.watchface.companionhelper",
+      "app_name": null,
+      "manufacturer": "Samsung",
+      "category": "Watch face",
+      "description": "Watch face companion helper package",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "UNKNOWN",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch4"
+      ],
+      "software_scope": [
+        "wear_os_3"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/wearos-watch-adb-commands-disable-enable-uninstall-restore-system-app-install-pull-apps.4324063/",
+        "source_type": "dump",
+        "device_model": "Samsung Galaxy Watch 4",
+        "firmware": "Wear OS 3 era firmware (source thread)",
+        "testing_status": "VERIFIED",
+        "verified_date": null,
+        "side_effects": "Direct pm list packages dump from a community-published device session. Enumeration evidence only. No removal test included."
+      }
+    },
+    "com.microsoft.office.outlook": {
+      "package": "com.microsoft.office.outlook",
+      "app_name": "Outlook",
+      "manufacturer": "Microsoft",
+      "category": "Pre-installed application",
+      "description": "Microsoft Outlook on the watch. Pre-installed third-party application",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "UNKNOWN",
+      "reversible": true,
+      "restore_command": "pm install-existing --user 0 {package}",
+      "device_scope": [
+        "galaxy_watch4"
+      ],
+      "software_scope": [
+        "wear_os_3"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/wearos-watch-adb-commands-disable-enable-uninstall-restore-system-app-install-pull-apps.4324063/",
+        "source_type": "dump",
+        "device_model": "Samsung Galaxy Watch 4",
+        "firmware": "Wear OS 3 era firmware (source thread)",
+        "testing_status": "VERIFIED",
+        "verified_date": null,
+        "side_effects": "Direct pm list packages dump from a community-published device session. Enumeration evidence only. No removal test included."
+      }
+    }
+  }
+}

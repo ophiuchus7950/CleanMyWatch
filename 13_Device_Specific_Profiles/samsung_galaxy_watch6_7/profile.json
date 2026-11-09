@@ -1,0 +1,17 @@
+{
+  "profile": "samsung_galaxy_watch6_7",
+  "datasets": [
+    "knowledge_galaxy_watch",
+    "knowledge_google_wear_os",
+    "knowledge_third_party_watch"
+  ],
+  "operation_map": {
+    "SAFE_TO_REMOVE": "uninstall_keep_apk",
+    "SAFE_TO_DISABLE": "disable"
+  },
+  "excluded": [],
+  "device_scope": ["galaxy_watch6", "galaxy_watch7", "galaxy_watch6_classic", "galaxy_watch7_classic"],
+  "software_scope": ["wear_os_4", "wear_os_5"],
+  "device_match": ["SM-R93", "SM-R94", "SM-R95", "SM-R96", "SM-R97"],
+  "description": "Samsung Galaxy Watch 6 and 7 series. Same knowledge datasets as Watch 4 but scoped to newer Wear OS versions. The knowledge_galaxy_watch dataset contains community evidence from the GW6/7 debloat thread (XDA tid 4613093)."
+}

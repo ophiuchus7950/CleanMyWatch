@@ -1,0 +1,11 @@
+{
+  "profile": "google_core",
+  "datasets": [
+    "knowledge_google_wear_os"
+  ],
+  "operation_map": {},
+  "excluded": [],
+  "device_scope": [],
+  "software_scope": ["wear_os_3", "wear_os_4", "wear_os_5", "wear_os_5_1", "wear_os_6"],
+  "description": "Google Wear OS core packages guard profile. All entries in knowledge_google_wear_os are classified DO_NOT_REMOVE or ADVANCED. This profile has no operations (empty operation_map) and is used by sw.py verify and swdb.py match to identify protected Google core packages that must never be targeted by debloating operations."
+}

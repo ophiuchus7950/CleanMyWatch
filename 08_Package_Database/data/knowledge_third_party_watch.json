@@ -1,0 +1,44 @@
+{
+  "schema": "watchdb-1",
+  "dataset": "knowledge_third_party_watch",
+  "description": "Classified pre-installed third-party packages seen on watches. Release 1.0 has one entry. Additions need a recorded source dump.",
+  "default_device_scope": [
+    "galaxy_watch6",
+    "galaxy_watch7"
+  ],
+  "default_software_scope": [
+    "wear_os_4",
+    "wear_os_5"
+  ],
+  "packages": {
+    "com.microsoft.office.outlook": {
+      "package": "com.microsoft.office.outlook",
+      "app_name": "Outlook",
+      "manufacturer": "Microsoft",
+      "category": "Pre-installed application",
+      "description": "Microsoft Outlook on the watch.\nPre-installed third-party application.",
+      "dependencies": [],
+      "needed_by": [],
+      "risk": "SAFE_TO_REMOVE",
+      "reversible": true,
+      "restore_command": "adb install --user 0 <path-to-outlook-apk or reinstall>",
+      "device_scope": [
+        "galaxy_watch6",
+        "galaxy_watch7"
+      ],
+      "software_scope": [
+        "wear_os_4",
+        "wear_os_5"
+      ],
+      "evidence": {
+        "source": "https://xdaforums.com/t/galaxy-watch-6-7-adb-debloat-connecting.4613093/",
+        "source_type": "community",
+        "device_model": "Galaxy Watch 6 / Galaxy Watch 7",
+        "firmware": "One UI Watch (Wear OS 4/5)",
+        "testing_status": "PARTIALLY_VERIFIED",
+        "verified_date": null,
+        "side_effects": "Seen in the debloat context of the source thread. Samsung support documents uninstall attempts for third-party pre-installed applications through Settings or the Galaxy Wearable application. Reinstall from the Play Store on the watch."
+      }
+    }
+  }
+}

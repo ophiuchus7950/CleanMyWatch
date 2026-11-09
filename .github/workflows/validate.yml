@@ -1,0 +1,32 @@
+name: validate
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Validate database and profiles
+        run: python3 14_Automation_and_Scripting/tools/swdb.py validate
+
+      - name: Run unit tests
+        working-directory: 15_Testing_and_Validation/tests
+        run: python3 -m unittest test_swdb test_sw -v
+
+      - name: Check documentation (ASD-STE100 subset)
+        run: >
+          python3 14_Automation_and_Scripting/tools/ste_check.py
+          [0-9][0-9]_* README.md AGENTS.md CONTRIBUTING.md SESSION_SUMMARY.md
